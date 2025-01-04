@@ -7,8 +7,9 @@ license = {file = "LICENSE"}
 authors = [
     { name = "Takanori Suzuki", email = "takanori@takanory.net" }
 ]
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 dependencies = [
+    "lxml>=5.3.0",
     "sphinx>=8.0",
 ]
 
@@ -20,6 +21,12 @@ doc = [
     "sphinx-copybutton",
     "sphinx-design",
     "sphinx-revealjs",
+]
+scripts = [
+    "vtracer",
+    "pillow",
+    "lxml",
+    "beautifulsoup4",
 ]
 
 [build-system]
