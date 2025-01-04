@@ -1,0 +1,27 @@
+[project]
+name = "sphinx-nekochan"
+version = "0.1.0"
+description = "Sphinx extension to add Neko-chan(cat) emoji"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [
+    { name = "Takanori Suzuki", email = "takanori@takanory.net" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "sphinx>=8.0",
+]
+
+[project.optional-dependencies]
+doc = [
+    "furo",
+    "myst-parser",
+    "sphinx",
+    "sphinx-copybutton",
+    "sphinx-design",
+    "sphinx-revealjs",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
