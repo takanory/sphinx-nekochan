@@ -1,3 +1,7 @@
+neco*.zip
+uv.lock
+.python-version
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
