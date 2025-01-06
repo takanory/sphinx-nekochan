@@ -12,6 +12,8 @@ documentation for details.
 
 :nekochan:`akeome`
 
+:nekochan:`happy-new-year`
+
 
 .. toctree::
    :maxdepth: 2

@@ -11,36 +11,11 @@ from sphinx.application import Sphinx
 from sphinx.util.docutils import SphinxRole
 from sphinx.util.typing import ExtensionMetadata
 
-from . import data
-from .data.make_nekochan_json import ALIASES_JSON, NEKOCHAN_EMOJI_JSON
+from .make_nekochan_json import NEKOCHAN_EMOJI_JSON
 
 
 @cache
-def get_aliases_data() -> dict[str:str]:
-    """make alias to emoji name convert dict from json
-
-    aliases = {
-        "akeome-nya": "akeome-nya",
-        "akeome": "akeome-nya",
-        :
-    }
-    """
-    breakpoint()
-    aliases = {}
-
-    content = resources.read_text(data, ALIASES_JSON, encoding="utf-8")
-    aliases_dict = json.loads(content)
-
-    for name, alias_list in aliases_dict.items():
-        aliases[name] = name
-        for alias in alias_list:
-            aliases[alias] = name
-
-    return aliases
-
-
-@cache
-def get_nekochan_emoji_data() -> dict[str : dict[str:str]]:
+def get_nekochan_emoji_data() -> tuple[dict[str : dict[str:str]], dict[str:str]]:
     """create nekochan emoji dict from json
 
     nekochan_emoji = {
@@ -65,15 +40,27 @@ def get_nekochan_emoji_data() -> dict[str : dict[str:str]]:
         "rain": "ame-nya",
     }
     """
-    content = resources.read_text(data, NEKOCHAN_EMOJI_JSON, encoding="utf-8")
+    breakpoint()
+    content = (
+        resources.files(__name__)
+        .joinpath("data")
+        .joinpath(NEKOCHAN_EMOJI_JSON)
+        .read_text()
+    )
     nekochan_emoji = json.loads(content)
-    return nekochan_emoji
+
+    aliases = {}
+    for name, value in nekochan_emoji.items():
+        aliases[name] = name
+        for alias in value["aliases"]:
+            aliases[alias] = name
+
+    return nekochan_emoji, aliases
 
 
 def get_nekochan_emoji(name: str) -> str:
     """Return nokochan emoji img tag"""
-    aliases = get_aliases_data()
-    nekochan_emoji = get_nekochan_emoji_data()
+    nekochan_emoji, aliases = get_nekochan_emoji_data()
 
     name = aliases[name]
     data = nekochan_emoji[name]
