@@ -36,6 +36,8 @@ extensions = [
 
 ### 3. Use `nekochan` role {nekochan}`clap-nya`
 
+When you use the `nekochan` roll, you will see any nekochan emoji.
+
 `````{tab-set}
 
 ````{tab-item} Markdown
