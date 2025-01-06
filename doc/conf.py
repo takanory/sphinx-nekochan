@@ -17,6 +17,7 @@ release = version
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
+    "sphinx.ext.todo",
     "myst_parser",
     "sphinx_copybutton",
     "sphinx_design",
@@ -27,7 +28,7 @@ extensions = [
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
-
+todo_include_todos = True
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
@@ -35,3 +36,9 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 html_theme = 'furo'
 html_static_path = ['_static']
 html_title = f"{project} v{release}"
+
+html_theme_options = {
+    "source_repository": "https://github.com/takanory/sphinx-nekochan/",
+    "source_branch": "main",
+    "source_directory": "docs/",
+}
