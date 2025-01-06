@@ -1,7 +1,7 @@
 [project]
 name = "sphinx-nekochan"
 version = "0.1.0"
-description = "Sphinx extension to add Neko-chan(cat) emoji"
+description = "A Sphinx extension for adding the Nekochan(cat) emoji to documents."
 readme = "README.md"
 license = {file = "LICENSE"}
 authors = [
