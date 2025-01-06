@@ -24,30 +24,41 @@ In your `conf.py` configuration file, add `sphinx_nekochan` to your extensions l
 ```python
 extensions = [
     ...
-    'sphinx_copybutton'
+    "sphinx_nekochan",
     ...
 ]
 ```
 
-### 3. Use nekochan role {nekochan}`clap-nya`
+### 3. Use `nekochan` role {nekochan}`clap-nya`
 
 `````{tab-set}
 
 ````{tab-item} Markdown
 ```markdown
 Welcome to nekochan emoji {nekochan}`banzai` world!!
-```
+
+* Enjoy nekochan emoji {nekochan}`ok`
+* I love {nekochan}`beer`
+``
 ````
 
 ````{tab-item} reStructuredText
 ```rst
 Welcome to nekochan emoji :nekochan:`banzai` world!!
+
+* Enjoy nekochan emoji :nekochan:`ok`
+* I love :nekochan:`beer`
 ```
 ````
 
 `````
 
 Welcome to nekochan emoji {nekochan}`banzai` world!!
+
+* Enjoy nekochan emoji {nekochan}`ok`
+* I love {nekochan}`beer`
+
+---
 
 ```{toctree}
 :maxdepth: 1

@@ -31,7 +31,7 @@ pip install sphinx-nekochan
 ```python
 extensions = [
     ...
-    'sphinx_copybutton'
+    "sphinx_nekochan",
     ...
 ]
 ```
@@ -45,15 +45,24 @@ Sphinx中に以下のように記述すると、指定された文字列に対�
 ````{tab-item} Markdown
 ```markdown
 ネコチャン絵文字 {nekochan}`banzai` の世界へようこそ！！
+
+* ネコチャン絵文字を楽しんでください {nekochan}`ok`
+* 私は {nekochan}`beer` が好きです
 ```
 ````
 
 ````{tab-item} reStructuredText
 ```rst
 ネコチャン絵文字 :nekochan:`banzai` の世界へようこそ！！
+
+* ネコチャン絵文字を楽しんでください :nekochan:`ok`
+* 私は :nekochan:`beer` が好きです
 ```
 ````
 
 `````
 
 ネコチャン絵文字 {nekochan}`banzai` の世界へようこそ！！
+
+* ネコチャン絵文字を楽しんでください {nekochan}`ok`
+* 私は {nekochan}`beer` が好きです
