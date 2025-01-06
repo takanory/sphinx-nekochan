@@ -4,7 +4,6 @@ __version__ = "0.1.0"
 
 from functools import cache
 from importlib import resources
-from pathlib import Path
 
 import json
 from docutils import nodes
@@ -17,7 +16,7 @@ from .data.make_nekochan_json import ALIASES_JSON, NEKOCHAN_EMOJI_JSON
 
 
 @cache
-def get_aliases_data() -> dict[str: str]:
+def get_aliases_data() -> dict[str:str]:
     """make alias to emoji name convert dict from json
 
     aliases = {
@@ -41,7 +40,7 @@ def get_aliases_data() -> dict[str: str]:
 
 
 @cache
-def get_nekochan_emoji_data() -> dict[str: dict[str: str]]:
+def get_nekochan_emoji_data() -> dict[str : dict[str:str]]:
     """create nekochan emoji dict from json
 
     nekochan_emoji = {

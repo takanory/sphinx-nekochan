@@ -166,12 +166,8 @@
   "hokkori-nya": [
     "hokkori"
   ],
-  "holiday-nya2": [
-    "holiday2"
-  ],
-  "holiday-nya3": [
-    "holiday3"
-  ],
+  "holiday-nya2": [],
+  "holiday-nya3": [],
   "hospital-nya": [
     "hospital"
   ],
@@ -191,8 +187,7 @@
     "inai"
   ],
   "inu-nya": [
-    "inu",
-    "dog"
+    "inu"
   ],
   "isogu-nya": [
     "isogu"
@@ -209,15 +204,12 @@
   "ji-nya": [
     "ji"
   ],
-  "jii-nya2": [
-    "jii2"
-  ],
+  "jii-nya2": [],
   "jikan-nya": [
     "jikan"
   ],
   "jiken-nya": [
-    "jiken",
-    "time"
+    "jiken"
   ],
   "jinrou-nya": [
     "jinrou"
@@ -295,31 +287,23 @@
     "kuchibue"
   ],
   "kuma-nya": [
-    "kuma",
-    "bear"
+    "kuma"
   ],
   "kuro-bow-nya": [
-    "kuro-bow",
-    "black-bow"
+    "kuro-bow"
   ],
   "kuro-juutai-nya": [
     "kuro-juutai"
   ],
-  "kuro_ng": [
-    "black-ng"
-  ],
-  "kuro_ok": [
-    "black-ok"
-  ],
+  "kuro_ng": [],
+  "kuro_ok": [],
   "kyapi-nya": [
     "kyapi"
   ],
   "kyomu-nya": [
     "kyomu"
   ],
-  "kyomu-nya2": [
-    "kyomu2"
-  ],
+  "kyomu-nya2": [],
   "kyun-desu-nya": [
     "kyun-desu"
   ],
@@ -368,9 +352,7 @@
   "memo-nya": [
     "memo"
   ],
-  "merry-chri-nya2": [
-    "merry-chri2"
-  ],
+  "merry-chri-nya2": [],
   "mesareta-nya": [
     "mesareta"
   ],
@@ -674,9 +656,7 @@
   "trick-or-treat-nya": [
     "trick-or-treat"
   ],
-  "trick-or-treat-nya2": [
-    "trick-or-treat2"
-  ],
+  "trick-or-treat-nya2": [],
   "trumpet-nya": [
     "trumpet"
   ],
@@ -690,8 +670,7 @@
     "uchu-neko"
   ],
   "uma-nya": [
-    "uma",
-    "horse"
+    "uma"
   ],
   "umasou-nya": [
     "umasou"
@@ -703,12 +682,10 @@
     "unun2"
   ],
   "uparupa-nya": [
-    "uparupa",
-    "axolotl"
+    "uparupa"
   ],
   "usagi-nya": [
-    "usagi",
-    "rabbit"
+    "usagi"
   ],
   "uum-nya": [
     "uum"
@@ -735,8 +712,7 @@
     "yabai"
   ],
   "yakyu-nya": [
-    "yakyu",
-    "baseball"
+    "yakyu"
   ],
   "yareyare-nya": [
     "yareyare"
@@ -760,51 +736,34 @@
     "zuko"
   ],
   "zutsu-nya": [
-    "zutsu",
-    "headache"
+    "zutsu"
   ],
   "ショパン-nya": [
-    "ショパン",
-    "chopin"
+    "ショパン"
   ],
   "バッハ-nya": [
-    "バッハ",
-    "bach"
+    "バッハ"
   ],
   "フェルメール-nya": [
-    "フェルメール",
-    "vermeer"
+    "フェルメール"
   ],
   "ベートーベン-nya": [
-    "ベートーベン",
-    "beethoven"
+    "ベートーベン"
   ],
   "モニャリザの微笑み-nya": [
-    "モニャリザの微笑み",
-    "monna-lisa"
+    "モニャリザの微笑み"
   ],
   "モーツァルト-nya": [
-    "モーツァルト",
-    "mozart"
+    "モーツァルト"
   ],
-  "ヴィーnyaス誕生": [
-    "birth-of-venus"
-  ],
+  "ヴィーnyaス誕生": [],
   "我が子を食らうサトゥルヌス-nya": [
-    "我が子を食らうサトゥルヌス",
-    "saturno-devorando-a-su-hijo"
+    "我が子を食らうサトゥルヌス"
   ],
-  "牛乳-long": [
-    "milk-long"
-  ],
-  "牛乳-so-long": [
-    "milk-so-kong"
-  ],
-  "牛乳を注ぐおんnya": [
-    "milkmaid"
-  ],
+  "牛乳-long": [],
+  "牛乳-so-long": [],
+  "牛乳を注ぐおんnya": [],
   "空也上人-nya": [
-    "空也上人",
-    "kuya"
+    "空也上人"
   ]
 }
