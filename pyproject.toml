@@ -21,6 +21,9 @@ doc = [
     "sphinx-design",
     "sphinx-revealjs",
 ]
+dev = [
+    "ruff>=0.8.6",
+]
 
 [build-system]
 requires = ["hatchling"]
