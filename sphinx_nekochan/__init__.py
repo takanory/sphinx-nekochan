@@ -45,14 +45,24 @@ def get_nekochan_emoji_data() -> dict[str : dict[str:str]]:
 
     nekochan_emoji = {
         "akeome-nya": {
+            "aliases" ["akeome"],
             "base64": "R0lGODlhgACA...",
             "mimetype": "image/gif",
         },
         "ame-nya": {
+            "aliases" ["ame", "rain"],
             "base64": "iVBORw0KGgo...",
             "mimetype": "image/png",
         },
         :
+    }
+
+    aliases = {
+        "akeome-nya": "akeome-nya",
+        "akeome": "akeome-nya",
+        "ame-nya": "ame-nya",
+        "ame": "ame-nya",
+        "rain": "ame-nya",
     }
     """
     content = resources.read_text(data, NEKOCHAN_EMOJI_JSON, encoding="utf-8")

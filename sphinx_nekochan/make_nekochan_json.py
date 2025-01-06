@@ -33,10 +33,7 @@ def update_aliases_json(name_dict: dict[str, str]) -> dict[str : list[str]]:
     aliases = {}
     p = Path(DATADIR) / ALIASES_JSON
     if p.exists():
-        try:
-            aliases = json.loads(p.read_text())
-        except json.decoder.JSONDecodeError:
-            pass
+        aliases = json.loads(p.read_text())
     for name in name_dict.keys():
         if name not in aliases:
             if name.endswith("-nya"):
