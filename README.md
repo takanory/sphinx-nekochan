@@ -2,7 +2,7 @@
 
 A Sphinx extension for adding the **Nekochan(cat) emoji** to documents.
 
-See [the sphinx-necochan documantation](https://sphinx-nekochan.readthedocs.io/) for more details.
+See [the sphinx-nekochan documantation](https://sphinx-nekochan.readthedocs.io/) for more details.
 
 ## Installation
 
