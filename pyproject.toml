@@ -13,7 +13,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-doc = [
+docs = [
     "furo",
     "myst-parser",
     "sphinx",
