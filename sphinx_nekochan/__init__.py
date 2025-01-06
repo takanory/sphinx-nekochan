@@ -40,7 +40,6 @@ def get_nekochan_emoji_data() -> tuple[dict[str : dict[str:str]], dict[str:str]]
         "rain": "ame-nya",
     }
     """
-    breakpoint()
     content = (
         resources.files(__name__)
         .joinpath("data")
@@ -62,18 +61,28 @@ def get_nekochan_emoji(name: str) -> str:
     """Return nokochan emoji img tag"""
     nekochan_emoji, aliases = get_nekochan_emoji_data()
 
-    name = aliases[name]
-    data = nekochan_emoji[name]
+    original_name = aliases[name]
+    data = nekochan_emoji[original_name]
     mime = data["mimetype"]
     b64 = data["base64"]
-    return f'<img height="1em" alt="{name}" src="data:{mime};base64,{b64}"/>'
+    style = "height: 1.0em"
+    return f'<img alt="{name}" style="{style}" src="data:{mime};base64,{b64}"/>'
 
 
 class NekochanRole(SphinxRole):
     """Nekochan emoji role"""
 
     def run(self) -> tuple[list[nodes.Node], list[nodes.system_message]]:
-        img_tag = get_nekochan_emoji(self.text)
+        try:
+            img_tag = get_nekochan_emoji(self.text)
+        except Exception as e:
+            msg = self.inliner.reporter.error(
+                f"Invalid nekochan emoji name: {e}",
+                line=self.lineno,
+            )
+            prb = self.inliner.problematic(self.rawtext, self.rawtext, msg)
+            return [prb], [msg]
+
         node = nodes.raw("", nodes.Text(img_tag), format="html")
         return [node], []
 

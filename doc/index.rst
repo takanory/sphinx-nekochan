@@ -10,9 +10,14 @@ Add your content using ``reStructuredText`` syntax. See the
 `reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
 documentation for details.
 
-:nekochan:`akeome`
+ああいうえお :nekochan:`akeome` かきくけこ
+------------------------------------------
 
-:nekochan:`happy-new-year`
+ああいうえお :nekochan:`akeome` かきくけこ
+------------------------------------------
+* :nekochan:`happy-new-year`
+* :nekochan:`birth-of-venus`
+* :nekochan:`hoge`
 
 
 .. toctree::
