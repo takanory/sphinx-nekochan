@@ -57,7 +57,7 @@ def get_nekochan_emoji_data() -> tuple[dict[str : dict[str:str]], dict[str:str]]
     return nekochan_emoji, aliases
 
 
-def get_nekochan_emoji(name: str) -> str:
+def get_nekochan_emoji(name: str, height: str = "1.0em") -> str:
     """Return nokochan emoji img tag"""
     nekochan_emoji, aliases = get_nekochan_emoji_data()
 
@@ -65,7 +65,7 @@ def get_nekochan_emoji(name: str) -> str:
     data = nekochan_emoji[original_name]
     mime = data["mimetype"]
     b64 = data["base64"]
-    style = "height: 1.0em"
+    style = f"height: {height}"
     return f'<img alt="{name}" style="{style}" src="data:{mime};base64,{b64}"/>'
 
 
@@ -85,6 +85,13 @@ class NekochanRole(SphinxRole):
 
         node = nodes.raw("", nodes.Text(img_tag), format="html")
         return [node], []
+
+
+# TODO: add Nekochan Directive
+# https://github.com/atsphinx/audioplayer/blob/main/src/atsphinx/audioplayer/__init__.py#L29
+
+# TODO: add All nekochan directive
+# https://github.com/executablebooks/sphinx-design/blob/main/sphinx_design/icons.py#L145
 
 
 def setup(app: Sphinx) -> ExtensionMetadata:
