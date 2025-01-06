@@ -1,17 +1,22 @@
 # Sphinx-nekochan {nekochan}`smile`
 
+A Sphinx extension for adding the **Nekochan(cat) emoji** to documents.
+
+```{hint}
 See <project:japanese.md>.
 日本語の説明は <project:japanese.md> を参照してください。
-
-```{todo}
-About this extension
 ```
 
 ## Get Started {nekochan}`think-nya`
 
 ### 1. Installation {nekochan}`ok-nya`
 
+```{warning}
+Can't install using pip yet.
+```
+
 You can install `sphinx-nekochan` with `pip`:
+
 
 ```
 pip install sphinx-nekochan
@@ -39,7 +44,7 @@ Welcome to nekochan emoji {nekochan}`banzai` world!!
 
 * Enjoy nekochan emoji {nekochan}`ok`
 * I love {nekochan}`beer`
-``
+```
 ````
 
 ````{tab-item} reStructuredText

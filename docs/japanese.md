@@ -1,8 +1,10 @@
 # Description in Japanese {nekochan}`youkoso`
 
-See <project:index.md> for dxplanation in English.
-
 Sphinx-nekochanはSphinxドキュメントの中に**ネコチャン絵文字**を挿入するための拡張機能です。
+
+```{hint}
+See <project:index.md> for description in English.
+```
 
 ```{todo}
 ネコチャン絵文字についての説明を追加する
@@ -14,7 +16,7 @@ Sphinx-nekochanはSphinxドキュメントの中に**ネコチャン絵文字**�
 
 ### 1. インストール {nekochan}`ok-nya`
 
-```{todo}
+```{warning}
 まだpipインストールできません
 ```
 
