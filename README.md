@@ -47,3 +47,25 @@ Welcome to nekochan emoji :nekochan:`banzai` world!!
 ```
 
 ![nekochan emoji with text](nekochan-emoji-with-text.gif)
+
+## Customize emoji height and alt text 
+
+You can specify height and alt text with a semicolon(`;`) after the name of the `nekochan` role.
+
+* markdown
+
+```markdown
+* Big bear nekochan {nekochan}`kuma-nya;2em`
+* Huge hot-sprint nekochan {nekochan}`hot-spring;128px`
+* Customize alt text for emoji {nekochan}`gohan-taberu;3em;Nekochan eating rice ball`
+```
+
+* reStructuredText
+
+```rst
+* Big bear nekochan :nekochan:`kuma-nya;2em`
+* Huge hot-sprint nekochan :nekochan:`hot-spring;128px`
+* Customize alt text for emoji :nekochan:`gohan-taberu;3em;Nekochan eating rice ball`
+```
+
+![customize emoji height and alt text](custom-height-alt.png)

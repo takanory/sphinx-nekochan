@@ -38,32 +38,34 @@ extensions = [
 
 When you use the `nekochan` roll, you will see any Nekochan emoji.
 
-`````{tab-set}
-
-````{tab-item} Markdown
-```markdown
-Welcome to Nekochan emoji {nekochan}`banzai` world!!
-
-* Enjoy Nekochan emoji {nekochan}`ok`
-* I love {nekochan}`beer`
+````{tab-set-code}
+```{literalinclude} ./snippets/simple.md
+:language: markdown
+```
+```{literalinclude} ./snippets/simple.rst
+:language: rst
 ```
 ````
 
-````{tab-item} reStructuredText
-```rst
-Welcome to Nekochan emoji :nekochan:`banzai` world!!
+```{include} ./snippets/simple.md
+```
 
-* Enjoy Nekochan emoji :nekochan:`ok`
-* I love :nekochan:`beer`
+
+### 4. Customize emoji height and alt text  {nekochan}`memo-nya`
+
+You can specify height and alt text with a semicolon(`;`) after the name of the `nekochan` role.
+
+````{tab-set-code}
+```{literalinclude} ./snippets/with-height-alt.md
+:language: markdown
+```
+```{literalinclude} ./snippets/with-height-alt.rst
+:language: rst
 ```
 ````
 
-`````
-
-Welcome to Nekochan emoji {nekochan}`banzai` world!!
-
-* Enjoy Nekochan emoji {nekochan}`ok`
-* I love {nekochan}`beer`
+```{include} ./snippets/with-height-alt.md
+```
 
 ---
 
