@@ -45,6 +45,9 @@ Sphinx中に以下のように記述すると、指定された文字列に対�
 ```
 ````
 
+```{revealjs-break}
+```
+
 ```{include} ./snippets/simple-ja.md
 ```
 
@@ -60,6 +63,9 @@ Sphinx中に以下のように記述すると、指定された文字列に対�
 :language: rst
 ```
 ````
+
+```{revealjs-break}
+```
 
 ```{include} ./snippets/with-height-alt-ja.md
 ```

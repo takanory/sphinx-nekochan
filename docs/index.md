@@ -47,6 +47,9 @@ When you use the `nekochan` roll, you will see any Nekochan emoji.
 ```
 ````
 
+```{revealjs-break}
+```
+
 ```{include} ./snippets/simple.md
 ```
 
@@ -63,6 +66,9 @@ You can specify height and alt text with a semicolon(`;`) after the name of the 
 :language: rst
 ```
 ````
+
+```{revealjs-break}
+```
 
 ```{include} ./snippets/with-height-alt.md
 ```
