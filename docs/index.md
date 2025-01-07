@@ -1,4 +1,4 @@
-# Sphinx-nekochan {nekochan}`smile`
+# sphinx-nekochan {nekochan}`smile`
 
 A Sphinx extension for adding the **Nekochan(cat) emoji** to documents.
 
@@ -36,33 +36,33 @@ extensions = [
 
 ### 3. Use `nekochan` role {nekochan}`clap-nya`
 
-When you use the `nekochan` roll, you will see any nekochan emoji.
+When you use the `nekochan` roll, you will see any Nekochan emoji.
 
 `````{tab-set}
 
 ````{tab-item} Markdown
 ```markdown
-Welcome to nekochan emoji {nekochan}`banzai` world!!
+Welcome to Nekochan emoji {nekochan}`banzai` world!!
 
-* Enjoy nekochan emoji {nekochan}`ok`
+* Enjoy Nekochan emoji {nekochan}`ok`
 * I love {nekochan}`beer`
 ```
 ````
 
 ````{tab-item} reStructuredText
 ```rst
-Welcome to nekochan emoji :nekochan:`banzai` world!!
+Welcome to Nekochan emoji :nekochan:`banzai` world!!
 
-* Enjoy nekochan emoji :nekochan:`ok`
+* Enjoy Nekochan emoji :nekochan:`ok`
 * I love :nekochan:`beer`
 ```
 ````
 
 `````
 
-Welcome to nekochan emoji {nekochan}`banzai` world!!
+Welcome to Nekochan emoji {nekochan}`banzai` world!!
 
-* Enjoy nekochan emoji {nekochan}`ok`
+* Enjoy Nekochan emoji {nekochan}`ok`
 * I love {nekochan}`beer`
 
 ---
