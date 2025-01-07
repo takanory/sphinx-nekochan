@@ -27,5 +27,9 @@ Each pictogram can be specified by name or alias.
 * Alias: {nekochan}`ame`
 * Alias: {nekochan}`rain`
 
+```{tip}
+If you want to add or edit aliases to any Nekochan emoji, please send a Pull Request to [aliases.json](https://github.com/takanory/sphinx-nekochan/blob/main/sphinx_nekochan/data/aliases.json).
+```
+
 ```{_all_nekochan}
 ```
