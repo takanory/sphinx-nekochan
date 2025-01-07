@@ -81,7 +81,7 @@ class NekochanRole(SphinxRole):
 
         Additional height(ex: 2em, 128px) and alt text can be added to the
         element after a semicolon.
-        
+
         * markdown: {nekochan}`ame-nya;2em;rain`
         * reST: :nekochan:`ame-nya;2em;rain`
         """
@@ -175,7 +175,7 @@ class AllNekochanDirective(SphinxDirective):
 
         cell = nodes.entry()
         row += cell
-        img_tag = create_nekochan_img_tag(name, height="64px"),
+        img_tag = create_nekochan_img_tag(name, height="64px")
         cell += nodes.raw("", nodes.Text(img_tag), format="html")
         cell = nodes.entry()
         row += cell
