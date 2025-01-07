@@ -1,4 +1,4 @@
-"""Sphinx nekochan emoji extension"""
+"""sphinx-nekochan emoji extension"""
 
 __version__ = "0.1.0"
 
@@ -17,7 +17,7 @@ from .make_nekochan_json import NEKOCHAN_EMOJI_JSON
 
 @cache
 def get_nekochan_emoji_data() -> tuple[dict[str : dict[str:str]], dict[str:str]]:
-    """create nekochan emoji dict from json
+    """create Nekochan emoji and aliases dict from json
 
     nekochan_emoji = {
         "akeome-nya": {
@@ -58,8 +58,11 @@ def get_nekochan_emoji_data() -> tuple[dict[str : dict[str:str]], dict[str:str]]
     return nekochan_emoji, aliases
 
 
-def get_nekochan_emoji(name: str, height: str = "1.0em") -> str:
-    """Return nokochan emoji img tag"""
+def create_nekochan_img_tag(name: str, height: str = "1em", alt: str = None) -> str:
+    """Create Nekochan emoji img tag"""
+    if alt is None:
+        alt = name
+
     nekochan_emoji, aliases = get_nekochan_emoji_data()
 
     original_name = aliases[name]
@@ -67,15 +70,29 @@ def get_nekochan_emoji(name: str, height: str = "1.0em") -> str:
     mime = data["mimetype"]
     b64 = data["base64"]
     style = f"height: {height}"
-    return f'<img alt="{name}" style="{style}" src="data:{mime};base64,{b64}"/>'
+    return f'<img alt="{alt}" style="{style}" src="data:{mime};base64,{b64}"/>'
 
 
 class NekochanRole(SphinxRole):
-    """Nekochan emoji role"""
+    """Role to display Nekochan emoji"""
 
     def run(self) -> tuple[list[nodes.Node], list[nodes.system_message]]:
+        """Run Nekochan role
+
+        Additional height(ex: 2em, 128px) and alt text can be added to the
+        element after a semicolon.
+        
+        * markdown: {nekochan}`ame-nya;2em;rain`
+        * reST: :nekochan:`ame-nya;2em;rain`
+        """
         try:
-            img_tag = get_nekochan_emoji(self.text)
+            match self.text.split(";", 2):
+                case [name]:
+                    img_tag = create_nekochan_img_tag(name)
+                case [name, height]:
+                    img_tag = create_nekochan_img_tag(name, height)
+                case [name, height, alt]:
+                    img_tag = create_nekochan_img_tag(name, height, alt)
         except Exception as e:
             msg = self.inliner.reporter.error(
                 f"Invalid nekochan emoji name: {e}",
@@ -88,11 +105,8 @@ class NekochanRole(SphinxRole):
         return [node], []
 
 
-
-# TODO: add All nekochan directive
-# https://github.com/executablebooks/sphinx-design/blob/main/sphinx_design/icons.py#L145
 class AllNekochanDirective(SphinxDirective):
-    """Directive to generate all nekochan emoji list
+    """Directive to generate all Nekochan emoji list
 
     see: https://sphinx-nekochan.readthedocs.io/nekochan_emojis.html
     """
@@ -100,14 +114,16 @@ class AllNekochanDirective(SphinxDirective):
     def run(self) -> list[nodes.Node]:
         node_list = []
 
-        first_char = ""
         nekochan_emoji, _ = get_nekochan_emoji_data()
+
         text = f"Number of Nekochan emojis: {len(nekochan_emoji)}"
         node_list.append(nodes.Text(text))
+
+        first_char = ""
         for name, data in nekochan_emoji.items():
             if name[0] != first_char:
                 first_char = name[0]
-                # create title(H2)
+                # create section and title(H2)
                 section = nodes.section(ids=[first_char])
                 title = nodes.title(first_char.upper(), first_char.upper())
                 section.append(title)
@@ -118,10 +134,13 @@ class AllNekochanDirective(SphinxDirective):
                 tbody = nodes.tbody()
                 tgroup += tbody
                 node_list.append(table)
-            tbody += self.add_row(name, nekochan_emoji[name]["aliases"])
+            # add row to table
+            tbody += self.create_row(name, nekochan_emoji[name]["aliases"])
+
         return node_list
 
     def create_table_header(self) -> nodes.Node:
+        """create table and table header node"""
         table = nodes.table()
 
         tgroup = nodes.tgroup(cols=3)
@@ -150,16 +169,14 @@ class AllNekochanDirective(SphinxDirective):
 
         return table, tgroup
 
-    def add_row(self, name: str, aliases) -> nodes.Node:
+    def create_row(self, name: str, aliases) -> nodes.Node:
+        """create a row for a Nekochan emoji"""
         row = nodes.row()
 
         cell = nodes.entry()
         row += cell
-        cell += nodes.raw(
-            "",
-            get_nekochan_emoji(name, height="64px"),
-            format="html",
-        )
+        img_tag = create_nekochan_img_tag(name, height="64px"),
+        cell += nodes.raw("", nodes.Text(img_tag), format="html")
         cell = nodes.entry()
         row += cell
         cell += nodes.literal(name, name)
