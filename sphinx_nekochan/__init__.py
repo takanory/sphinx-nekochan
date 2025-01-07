@@ -8,6 +8,7 @@ from importlib import resources
 import json
 from docutils import nodes
 from sphinx.application import Sphinx
+from sphinx.directives import SphinxDirective
 from sphinx.util.docutils import SphinxRole
 from sphinx.util.typing import ExtensionMetadata
 
@@ -87,15 +88,77 @@ class NekochanRole(SphinxRole):
         return [node], []
 
 
-# TODO: add Nekochan Directive
-# https://github.com/atsphinx/audioplayer/blob/main/src/atsphinx/audioplayer/__init__.py#L29
-
 # TODO: add All nekochan directive
 # https://github.com/executablebooks/sphinx-design/blob/main/sphinx_design/icons.py#L145
+class AllNekochanDirective(SphinxDirective):
+    """Directive to generate all nekochan emoji list
+
+    see: https://sphinx-nekochan.readthedocs.io/nekochan_emojis.html
+    """
+
+    def run(self) -> list[nodes.Node]:
+        table = nodes.table()
+        tgroup = nodes.tgroup(cols=3)
+        table += tgroup
+        tgroup.extend(
+            (
+                nodes.colspec(colwidth=1),
+                nodes.colspec(colwidth=1),
+                nodes.colspec(colwidth=1),
+            )
+        )
+
+        thead = nodes.thead()
+        row = nodes.row()
+        thead += row
+
+        cell = nodes.entry()
+        row += cell
+        cell += nodes.Text("Emoji", "Emoji")
+
+        cell = nodes.entry()
+        row += cell
+        cell += nodes.Text("Name", "Name")
+
+        cell = nodes.entry()
+        row += cell
+        cell += nodes.Text("Alias", "Alias")
+
+        tgroup += thead
+
+        tbody = nodes.tbody()
+        tgroup += tbody
+
+        nekochan_emoji, _ = get_nekochan_emoji_data()
+        for name, data in nekochan_emoji.items():
+            row = nodes.row()
+            tbody += row
+
+            cell = nodes.entry()
+            row += cell
+            cell += nodes.raw(
+                "",
+                get_nekochan_emoji(name, height="64px"),
+                format="html",
+            )
+
+            cell = nodes.entry()
+            row += cell
+            cell += nodes.literal(name, name)
+
+            cell = nodes.entry()
+            row += cell
+            for idx, alias in enumerate(nekochan_emoji[name]["aliases"]):
+                if idx > 0:
+                    cell += nodes.Text(", ")
+                cell += nodes.literal(alias, alias)
+
+        return [table]
 
 
 def setup(app: Sphinx) -> ExtensionMetadata:
     app.add_role("nekochan", NekochanRole())
+    app.add_directive("_all_nekochan", AllNekochanDirective)
 
     return {
         "version": __version__,
