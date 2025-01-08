@@ -1,7 +1,7 @@
 # List of Nekochan emoji {nekochan}`trafic-jam`
 
 Here is a list of Nekochan emoji.
-Each pictogram can be specified by name or alias.
+Each emoji can be specified by name or alias.
 
 `````{tab-set}
 

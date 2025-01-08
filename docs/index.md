@@ -73,5 +73,7 @@ You can specify height and alt text with a semicolon(`;`) after the name of the 
 :maxdepth: 1
 
 nekochan_emojis
+about
+background
 japanese
 ```
