@@ -9,7 +9,7 @@ See <project:japanese.md>.
 ```
 
 ``` {hint}
-[Examples of slides](../slides/) with Nekochan emoji, using [sphinx-revealjs](https://sphinx-revealjs.readthedocs.io/).
+[**Sample slide**](https://sphinx-nekochan.readthedocs.io/slides/) with Nekochan emoji (using [sphinx-revealjs](https://sphinx-revealjs.readthedocs.io/)).
 ```
 ````
 
