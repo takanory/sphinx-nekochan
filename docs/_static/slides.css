@@ -1,0 +1,12 @@
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5 {
+  text-transform: none;
+}
+.reveal {
+  color: #404040
+}
+.reveal strong {
+  color: #f4b940;
+}
+.reveal em.fa {
+  font-style: normal;
+}

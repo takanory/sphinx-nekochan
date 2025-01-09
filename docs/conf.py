@@ -76,3 +76,27 @@ if sys.platform == "darwin":
     ogp_social_cards["font"] = "Hiragino Maru Gothic Pro"
 elif sys.platform == "win32":
     ogp_social_cards["font"] = "MS Gothic"
+
+# https://github.com/attakei/sphinx-revealjs/blob/master/demo/revealjs4/conf.py
+
+revealjs_style_theme = "white"
+
+revealjs_script_conf = {
+    "progress": False,
+    "history": True,
+}
+
+revealjs_script_plugins = [
+    {
+        "name": "RevealHighlight",
+        "src": "revealjs/plugin/highlight/highlight.js",
+    },
+]
+
+revealjs_static_path = html_static_path
+
+revealjs_css_files = [
+    "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/github.min.css",
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css",
+    'slides.css',
+]

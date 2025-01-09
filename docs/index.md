@@ -2,10 +2,16 @@
 
 A Sphinx extension for adding the **Nekochan(cat) emoji** to documents.
 
+````{only} builder_html
 ```{hint}
 See <project:japanese.md>.
 日本語の説明は <project:japanese.md> を参照してください。
 ```
+
+``` {hint}
+[**Sample slide**](https://sphinx-nekochan.readthedocs.io/slides/) with Nekochan emoji (using [sphinx-revealjs](https://sphinx-revealjs.readthedocs.io/)).
+```
+````
 
 ## Get Started {nekochan}`think-nya`
 
@@ -47,6 +53,9 @@ When you use the `nekochan` roll, you will see any Nekochan emoji.
 ```
 ````
 
+```{revealjs-break}
+```
+
 ```{include} ./snippets/simple.md
 ```
 
@@ -64,10 +73,18 @@ You can specify height and alt text with a semicolon(`;`) after the name of the 
 ```
 ````
 
+```{revealjs-break}
+```
+
 ```{include} ./snippets/with-height-alt.md
 ```
 
----
+## Enjoy!! {nekochan}`choo-choo-train`
+
+* {fas}`globe` [sphinx-nekochan.readthedocs.io](https://sphinx-nekochan.readthedocs.io)
+* {fab}`github` [takanory/sphinx-nekochan](https://github.com/takanory/sphinx-nekochan)
+
+## Table of Contents
 
 ```{toctree}
 :maxdepth: 1
