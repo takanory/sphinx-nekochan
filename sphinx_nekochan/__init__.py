@@ -4,6 +4,7 @@ __version__ = "0.1.0"
 
 from functools import cache
 from importlib import resources
+from pathlib import Path
 
 import json
 from docutils import nodes
@@ -70,7 +71,7 @@ def create_nekochan_img_tag(name: str, height: str = "1em", alt: str = None) -> 
     mime = data["mimetype"]
     b64 = data["base64"]
     style = f"height: {height}"
-    return f'<img alt="{alt}" style="{style}" src="data:{mime};base64,{b64}"/>'
+    return f'<img alt="{alt}" class="nekochan" style="{style}" src="data:{mime};base64,{b64}"/>'
 
 
 class NekochanRole(SphinxRole):
@@ -191,6 +192,10 @@ class AllNekochanDirective(SphinxDirective):
 
 
 def setup(app: Sphinx) -> ExtensionMetadata:
+    app.config.html_static_path.append(
+        str(Path(__file__).parent.joinpath("_static").absolute())
+    )
+    app.add_css_file("sphinx_nekochan.css")
     app.add_role("nekochan", NekochanRole())
     app.add_directive("_all_nekochan", AllNekochanDirective)
 
