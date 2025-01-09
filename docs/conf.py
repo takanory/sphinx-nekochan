@@ -80,6 +80,12 @@ elif sys.platform == "win32":
 # https://github.com/attakei/sphinx-revealjs/blob/master/demo/revealjs4/conf.py
 
 revealjs_style_theme = "white"
+
+revealjs_script_conf = {
+    "progress": False,
+    "history": True,
+}
+
 revealjs_script_plugins = [
     {
         "name": "RevealHighlight",
@@ -91,5 +97,6 @@ revealjs_static_path = html_static_path
 
 revealjs_css_files = [
     "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/github.min.css",
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css",
     'slides.css',
 ]
