@@ -4,6 +4,7 @@ import base64
 import json
 import unicodedata
 import sys
+from collections import Counter
 from pathlib import Path
 from zipfile import ZipFile
 
@@ -40,6 +41,17 @@ def update_aliases_json(name_dict: dict[str, str]) -> dict[str : list[str]]:
                 aliases[name] = [name.removesuffix("-nya")]
             else:
                 aliases[name] = []
+
+    # dupulicate check
+    counter = Counter()
+    for name, alias_list in aliases.items():
+        counter.update([name])
+        counter.update(alias_list)
+    dupulicates = [(k, v) for k, v in counter.items() if v > 1]
+    if dupulicates:
+        for name, count in dupulicates:
+            print(f"Duplicate: {name}, {count}")
+
     with p.open(mode="w", encoding="utf-8") as f:
         json.dump(aliases, f, ensure_ascii=False, indent=2, sort_keys=True)
 
