@@ -17,10 +17,6 @@ See <project:japanese.md>.
 
 ### 1. Installation {nekochan}`ok-nya`
 
-```{warning}
-Can't install using pip yet.
-```
-
 You can install `sphinx-nekochan` with `pip`:
 
 

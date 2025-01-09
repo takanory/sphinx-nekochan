@@ -10,10 +10,6 @@ See <project:index.md> for description in English.
 
 ### 1. インストール {nekochan}`ok-nya`
 
-```{warning}
-まだpipインストールできません
-```
-
 `sphinx-nekochan`は`pip`コマンドでインストールできます。
 
 ```
