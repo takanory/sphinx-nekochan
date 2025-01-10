@@ -70,7 +70,7 @@ You can specify height and alt text with a semicolon(`;`) after the name of the 
 
 ![customize emoji height and alt text](https://raw.githubusercontent.com/takanory/sphinx-nekochan/main/custom-height-alt.png)
 
-## License {nekochan}`ok2`
+## License
 
 * MIT License
 * The terms and condisions for original Nekochan emojis are as follows:
