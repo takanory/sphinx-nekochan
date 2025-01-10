@@ -86,7 +86,7 @@ You can specify height and alt text with a semicolon(`;`) after the name of the 
 * {fas}`globe` [sphinx-nekochan.readthedocs.io](https://sphinx-nekochan.readthedocs.io)
 * {fab}`github` [takanory/sphinx-nekochan](https://github.com/takanory/sphinx-nekochan)
 
-## Table of Contents
+## Table of Contents {nekochan}`tsunda`
 
 ```{toctree}
 :maxdepth: 1
