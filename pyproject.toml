@@ -1,6 +1,6 @@
 [project]
 name = "sphinx-nekochan"
-version = "0.1.1"
+dynamic = ["version"]
 description = "A Sphinx extension for adding the Nekochan(cat) emoji to documents."
 authors = [{name = "Takanori Suzuki", email = "takanori@takanory.net"}]
 readme = "README.md"
