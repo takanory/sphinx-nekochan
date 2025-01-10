@@ -46,7 +46,7 @@ Welcome to nekochan emoji :nekochan:`banzai` world!!
 * I love :nekochan:`beer`
 ```
 
-![nekochan emoji with text](nekochan-emoji-with-text.gif)
+![nekochan emoji with text](https://raw.githubusercontent.com/takanory/sphinx-nekochan/main/nekochan-emoji-with-text.gif)
 
 ## Customize emoji height and alt text 
 
@@ -68,4 +68,10 @@ You can specify height and alt text with a semicolon(`;`) after the name of the 
 * Customize alt text for emoji :nekochan:`gohan-taberu;3em;Nekochan eating rice ball`
 ```
 
-![customize emoji height and alt text](custom-height-alt.png)
+![customize emoji height and alt text](https://raw.githubusercontent.com/takanory/sphinx-nekochan/main/custom-height-alt.png)
+
+## License {nekochan}`ok2`
+
+* MIT License
+* The terms and condisions for original Nekochan emojis are as follows:
+  * <https://note.com/shikamatsu/n/n8818bb5ebea1> (Japanese)

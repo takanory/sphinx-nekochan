@@ -8,10 +8,6 @@ Please use Nekochan emojis on Slack and Discord.
 
 * <https://note.com/shikamatsu/n/nd217dc0617db> (Japanese)
 
-Please refer to the following terms and conditions for the use of Nekochan emojis.
-
-* <https://note.com/shikamatsu/n/n8818bb5ebea1> (Japanese)
-
 In addition, if you use LINE, there are Nekochan stickers and emojis.
 Please use these as well.
 

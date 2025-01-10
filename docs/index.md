@@ -75,6 +75,12 @@ You can specify height and alt text with a semicolon(`;`) after the name of the 
 ```{include} ./snippets/with-height-alt.md
 ```
 
+## License {nekochan}`ok2`
+
+* MIT License
+* The terms and condisions for original Nekochan emojis are as follows:
+  * <https://note.com/shikamatsu/n/n8818bb5ebea1> (Japanese)
+
 ## Enjoy!! {nekochan}`choo-choo-train`
 
 * {fas}`globe` [sphinx-nekochan.readthedocs.io](https://sphinx-nekochan.readthedocs.io)
