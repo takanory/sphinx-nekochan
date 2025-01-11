@@ -66,6 +66,12 @@ Sphinx中に以下のように記述すると、指定された文字列に対�
 ```{include} ./snippets/with-height-alt-ja.md
 ```
 
+## ライセンス {nekochan}`ok2`
+
+* sphinx-nekochanのライセンスはMIT Licenseです
+* ネコチャン絵文字の利用については、以下のガイドラインを参照してください
+  * [ネコチャン絵文字の利用に関するおやくそくなど｜しかまつ(ネコチャン絵文字職人)](https://note.com/shikamatsu/n/n8818bb5ebea1)
+
 ## ネコチャン絵文字について {nekochan}`wao-nya`
 
 この拡張機能で使用しているネコチャン絵文字は、**しかまつ**さんが作成して配布しているものです。
@@ -75,10 +81,6 @@ Sphinx中に以下のように記述すると、指定された文字列に対�
 ぜひSlackやDiscordで活用してください。
 
 * [SlackやDiscordで使えるネコチャン絵文字を配布しています♪｜しかまつ(ネコチャン絵文字職人)](https://note.com/shikamatsu/n/nd217dc0617db)
-
-ネコチャン絵文字の利用については、以下の規約を確認してください。
-
-* [ネコチャン絵文字の利用に関するおやくそくなど｜しかまつ(ネコチャン絵文字職人)](https://note.com/shikamatsu/n/n8818bb5ebea1)
 
 また、LINEを使っている方はネコちゃん絵文字のスタンプがあります。
 こちらもぜひご活用ください。
@@ -102,3 +104,10 @@ Sphinx中に以下のように記述すると、指定された文字列に対�
 同じように、シンプルな文字列（この場合は`nekochan`ロールと絵文字の名前）でネコチャン絵文字をスライドに表示できるといいなと思い、初めてのSphinx拡張作成に挑戦しました{nekochan}`kitaeru;2em`。
 
 sphinx-nekochanを使用して、日本中、世界中でネコチャン絵文字入りのドキュメント、スライドが作成されたらうれしいです{nekochan}`kitai;2em`！！
+
+## Enjoy!! {nekochan}`choo-choo-train`
+
+* {fas}`globe` [sphinx-nekochan.readthedocs.io](https://sphinx-nekochan.readthedocs.io)
+* {fab}`github` [takanory/sphinx-nekochan](https://github.com/takanory/sphinx-nekochan)
+* {fab}`python` [pypi.org/project/sphinx-nekochan](https://pypi.org/project/sphinx-nekochan/)
+

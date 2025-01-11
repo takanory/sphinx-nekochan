@@ -77,9 +77,9 @@ You can specify height and alt text with a semicolon(`;`) after the name of the 
 
 ## License {nekochan}`ok2`
 
-* MIT License
-* The terms and condisions for original Nekochan emojis are as follows:
-  * <https://note.com/shikamatsu/n/n8818bb5ebea1> (Japanese)
+* sphinx-nekochan is licensed under the MIT License.
+* Please refer to the following guidelines for using Nekochan emojis.
+  * [Guidelines for Using Cat Emojis](https://note.com/shikamatsu/n/n8818bb5ebea1#8b38f78f-1883-46c6-a596-63d9bf4c69da)
 
 ## Enjoy!! {nekochan}`choo-choo-train`
 
