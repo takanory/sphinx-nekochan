@@ -1,6 +1,6 @@
 """sphinx-nekochan emoji extension"""
 
-__version__ = "0.1.3"
+__version__ = "0.1.4"
 
 from functools import cache
 from importlib import resources
@@ -13,7 +13,7 @@ from sphinx.directives import SphinxDirective
 from sphinx.util.docutils import SphinxRole
 from sphinx.util.typing import ExtensionMetadata
 
-from .make_nekochan_json import NEKOCHAN_EMOJI_JSON
+NEKOCHAN_EMOJI_JSON = "nekochan_emoji.json"
 
 
 @cache

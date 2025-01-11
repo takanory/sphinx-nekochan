@@ -8,12 +8,13 @@ from collections import Counter
 from pathlib import Path
 from zipfile import ZipFile
 
+from __init__ import NEKOCHAN_EMOJI_JSON
+
 URL = "https://note.com/shikamatsu/n/nd217dc0617db"
 
 DATADIR = "data"
 ZIPFILE = "neco202408.zip"
 ALIASES_JSON = "aliases.json"
-NEKOCHAN_EMOJI_JSON = "nekochan_emoji.json"
 
 MIME_TYPES = {
     "png": "image/png",
