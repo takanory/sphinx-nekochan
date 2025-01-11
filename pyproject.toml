@@ -50,6 +50,9 @@ requires = ["flit_core"]
 build-backend = "flit_core.buildapi"
 
 [tool.flit.sdist]
+include = ["sphinx_nekochan/"]
 exclude = [
-    "docs/",
+    "sphinx_nekochan/make_nekochan_json.py",
+    "sphinx_nekochan/data/aliases.json",
+    "sphinx_nekochan/data/*.zip",
 ]

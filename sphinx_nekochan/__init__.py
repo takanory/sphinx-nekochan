@@ -1,6 +1,6 @@
 """sphinx-nekochan emoji extension"""
 
-__version__ = "0.1.2"
+__version__ = "0.1.3"
 
 from functools import cache
 from importlib import resources
