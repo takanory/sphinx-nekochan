@@ -1,6 +1,6 @@
 """sphinx-nekochan emoji extension"""
 
-__version__ = "0.1.4"
+__version__ = "0.1.5"
 
 from functools import cache
 from importlib import resources
@@ -46,7 +46,7 @@ def get_nekochan_emoji_data() -> tuple[dict[str : dict[str:str]], dict[str:str]]
         resources.files(__name__)
         .joinpath("data")
         .joinpath(NEKOCHAN_EMOJI_JSON)
-        .read_text()
+        .read_text(encoding="utf-8")
     )
     nekochan_emoji = json.loads(content)
 
