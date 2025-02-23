@@ -56,7 +56,7 @@ When you use the `nekochan` roll, you will see any Nekochan emoji.
 ```
 
 
-### 4. Customize emoji height and alt text  {nekochan}`memo-nya`
+### 4. Customize emoji height and alt text {nekochan}`memo-nya`
 
 You can specify height and alt text with a semicolon(`;`) after the name of the `nekochan` role.
 
@@ -73,6 +73,41 @@ You can specify height and alt text with a semicolon(`;`) after the name of the 
 ```
 
 ```{include} ./snippets/with-height-alt.md
+```
+
+### 5. Transform emoji {nekochan}`mou-dounidemo-nare`
+
+Also, you can specify transform option with a semicolon(`;`) after the alt text of the `nekochan` role.
+
+````{tab-set-code}
+```{literalinclude} ./snippets/with-transform.md
+:language: markdown
+```
+```{literalinclude} ./snippets/with-transform.rst
+:language: rst
+```
+````
+
+```{revealjs-break}
+```
+
+```{include} ./snippets/with-transform.md
+```
+
+```{revealjs-break}
+:notitle:
+```
+
+```{table} List of transform option
+| Option | Details | Result |
+| -- | -- | -- |
+| | Original emoji | {nekochan}`mou-dounidemo-nare;2em` |
+| rotate-90 | Rotates an emoji 90° | {nekochan}`mou-dounidemo-nare;2em;;rotate-90` |
+| rotate-180 | Rotates an emoji 180°| {nekochan}`mou-dounidemo-nare;2em;;rotate-180` |
+| rotate-270 | Rotates an emoji 270°| {nekochan}`mou-dounidemo-nare;2em;;rotate-270` |
+| flip-horizontal | Mirrors an emoji horizontally | {nekochan}`mou-dounidemo-nare;2em;;flip-horizontal` |
+| flip-vertical | Mirrors an emoji vertically | {nekochan}`mou-dounidemo-nare;2em;;flip-vertical` |
+| flip-both | Mirrors an emoji both vertically and horizontally | {nekochan}`mou-dounidemo-nare;2em;;flip-both` |
 ```
 
 ## License {nekochan}`ok2`

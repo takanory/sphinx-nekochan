@@ -3,3 +3,21 @@
   vertical-align: text-bottom;
   height: 1em;
 }
+.nekochan-rotate-90 {
+  transform: rotate(90deg);
+}
+.nekochan-rotate-180 {
+  transform: rotate(180deg);
+}
+.nekochan-rotate-270 {
+  transform: rotate(270deg);
+}
+.nekochan-flip-horizontal {
+  transform: scaleX(-1);
+}
+.nekochan-flip-vertical {
+  transform: scaleY(-1);
+}
+.nekochan-flip-both {
+  transform: scale(-1);
+}

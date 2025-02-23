@@ -1,6 +1,6 @@
 """sphinx-nekochan emoji extension"""
 
-__version__ = "0.1.5"
+__version__ = "0.2.0"
 
 from functools import cache
 from importlib import resources
@@ -14,6 +14,15 @@ from sphinx.util.docutils import SphinxRole
 from sphinx.util.typing import ExtensionMetadata
 
 NEKOCHAN_EMOJI_JSON = "nekochan_emoji.json"
+
+TRANSFORMS = (
+    "rotate-90",
+    "rotate-180",
+    "rotate-270",
+    "flip-horizontal",
+    "flip-vertical",
+    "flip-both",
+)
 
 
 @cache
@@ -59,9 +68,11 @@ def get_nekochan_emoji_data() -> tuple[dict[str : dict[str:str]], dict[str:str]]
     return nekochan_emoji, aliases
 
 
-def create_nekochan_img_tag(name: str, height: str = "1em", alt: str = None) -> str:
+def create_nekochan_img_tag(
+    name: str, height: str = "1em", alt: str = None, transform: str = None
+) -> str:
     """Create Nekochan emoji img tag"""
-    if alt is None:
+    if alt is None or alt == "":
         alt = name
 
     nekochan_emoji, aliases = get_nekochan_emoji_data()
@@ -71,7 +82,12 @@ def create_nekochan_img_tag(name: str, height: str = "1em", alt: str = None) -> 
     mime = data["mimetype"]
     b64 = data["base64"]
     style = f"height: {height}"
-    return f'<img alt="{alt}" class="nekochan" style="{style}" src="data:{mime};base64,{b64}"/>'
+
+    class_ = "nekochan"
+    if transform in TRANSFORMS:  # add transform style
+        class_ = f"nekochan nekochan-{transform}"
+
+    return f'<img alt="{alt}" class="{class_}" style="{style}" src="data:{mime};base64,{b64}"/>'
 
 
 class NekochanRole(SphinxRole):
@@ -87,13 +103,15 @@ class NekochanRole(SphinxRole):
         * reST: :nekochan:`ame-nya;2em;rain`
         """
         try:
-            match self.text.split(";", 2):
+            match self.text.split(";", 3):
                 case [name]:
                     img_tag = create_nekochan_img_tag(name)
                 case [name, height]:
                     img_tag = create_nekochan_img_tag(name, height)
                 case [name, height, alt]:
                     img_tag = create_nekochan_img_tag(name, height, alt)
+                case [name, height, alt, transform]:
+                    img_tag = create_nekochan_img_tag(name, height, alt, transform)
         except Exception as e:
             msg = self.inliner.reporter.error(
                 f"Invalid nekochan emoji name: {e}",
