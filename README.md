@@ -88,7 +88,7 @@ Also, you can specify transform option with a semicolon(`;`) after the alt text 
 * Flip the left and right side of the :nekochan:`yoshi;2em` Yoshi emoji :nekochan:`yoshi;2em;;flip-horizontal`
 ```
 
-![transform emoji](https://raw.githubusercontent.com/takanory/sphinx-nekochan/main/transform-emoji.png)
+![Transform emoji](https://raw.githubusercontent.com/takanory/sphinx-nekochan/main/transform-emoji.png)
 
 ## License
 
