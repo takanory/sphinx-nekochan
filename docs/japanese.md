@@ -66,6 +66,41 @@ Sphinx中に以下のように記述すると、指定された文字列に対�
 ```{include} ./snippets/with-height-alt-ja.md
 ```
 
+### 5. 絵文字を変換する {nekochan}`mou-dounidemo-nare`
+
+また、`nekochan`ロールのaltテキストの後ろにセミコロン（`;`）を付けると、変換オプションを指定できます。
+
+````{tab-set-code}
+```{literalinclude} ./snippets/with-transform-ja.md
+:language: markdown
+```
+```{literalinclude} ./snippets/with-transform-ja.rst
+:language: rst
+```
+````
+
+```{revealjs-break}
+```
+
+```{include} ./snippets/with-transform-ja.md
+```
+
+```{revealjs-break}
+:notitle:
+```
+
+```{table} 変換オプションの一覧
+| オプション | 説明 | 変換の結果 |
+| -- | -- | -- |
+| | 元の絵文字 | {nekochan}`mou-dounidemo-nare;2em` |
+| rotate-90 | 90°回転 | {nekochan}`mou-dounidemo-nare;2em;;rotate-90` |
+| rotate-180 | 180°回転| {nekochan}`mou-dounidemo-nare;2em;;rotate-180` |
+| rotate-270 | 270°回転| {nekochan}`mou-dounidemo-nare;2em;;rotate-270` |
+| flip-horizontal | 左右を反転 | {nekochan}`mou-dounidemo-nare;2em;;flip-horizontal` |
+| flip-vertical | 上下を反転 | {nekochan}`mou-dounidemo-nare;2em;;flip-vertical` |
+| flip-both | 左右と上下の両方を反転 | {nekochan}`mou-dounidemo-nare;2em;;flip-both` |
+```
+
 ## ライセンス {nekochan}`ok2`
 
 * sphinx-nekochanのライセンスはMIT Licenseです

@@ -38,7 +38,7 @@ docs = [
     "sphinx>=8.1.3",
     "sphinx-copybutton>=0.5.2",
     "sphinx-design>=0.6.1",
-    "sphinx-revealjs>=3.0.5",
+    "sphinx-revealjs==3.1.1",
     "sphinxext-opengraph>=0.9.1",
 ]
 dev = [

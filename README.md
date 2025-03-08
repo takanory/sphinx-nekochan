@@ -48,7 +48,7 @@ Welcome to nekochan emoji :nekochan:`banzai` world!!
 
 ![nekochan emoji with text](https://raw.githubusercontent.com/takanory/sphinx-nekochan/main/nekochan-emoji-with-text.gif)
 
-## Customize emoji height and alt text 
+## Customize emoji height and alt text
 
 You can specify height and alt text with a semicolon(`;`) after the name of the `nekochan` role.
 
@@ -69,6 +69,26 @@ You can specify height and alt text with a semicolon(`;`) after the name of the 
 ```
 
 ![customize emoji height and alt text](https://raw.githubusercontent.com/takanory/sphinx-nekochan/main/custom-height-alt.png)
+
+## Transform emoji
+
+Also, you can specify transform option with a semicolon(`;`) after the alt text of the `nekochan` role.
+
+* markdown
+
+```markdown
+* Skip {nekochan}`skip-nya;2em` rotated 90 degrees clockwise {nekochan}`skip-nya;2em;;rotate-90`
+* Flip the left and right side of the {nekochan}`yoshi;2em` Yoshi emoji {nekochan}`yoshi;2em;;flip-horizontal`
+```
+
+* reStructuredText
+
+```rst
+* Skip :nekochan:`skip-nya;2em` rotated 90 degrees clockwise :nekochan:`skip-nya;2em;;rotate-90`
+* Flip the left and right side of the :nekochan:`yoshi;2em` Yoshi emoji :nekochan:`yoshi;2em;;flip-horizontal`
+```
+
+![Transform emoji](https://raw.githubusercontent.com/takanory/sphinx-nekochan/main/transform-emoji.png)
 
 ## License
 
