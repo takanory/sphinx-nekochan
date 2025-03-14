@@ -36,6 +36,9 @@
     "bakushou",
     "lol"
   ],
+  "banban-nya": [
+    "banban"
+  ],
   "banya-nya": [
     "banana"
   ],
@@ -46,8 +49,14 @@
   "barista-nya": [
     "barista"
   ],
+  "barrier-nya": [
+    "barrier"
+  ],
   "basketball-nya": [
     "basketball"
+  ],
+  "beam-nya": [
+    "beam"
   ],
   "beer-nya": [
     "beer"
@@ -55,6 +64,9 @@
   "benkyou-nya ": [
     "benkyou",
     "study"
+  ],
+  "big-love-nya": [
+    "big-love"
   ],
   "bikkuri-nya": [
     "bikkuri",
@@ -82,6 +94,9 @@
   "camera-nya": [
     "camera"
   ],
+  "cat-rareta-nya": [
+    "cat-rareta"
+  ],
   "chira-nya": [
     "chira",
     "glimpse"
@@ -89,8 +104,17 @@
   "choo-choo-train-nya": [
     "choo-choo-train"
   ],
+  "chudoon-nya": [
+    "chudoon"
+  ],
   "clap-nya": [
     "clap"
+  ],
+  "css-kanzen-ni-rikai-sita-nya": [
+    "css-kanzen-ni-rikai-sita"
+  ],
+  "dai-kansha-nya": [
+    "dai-kansha"
   ],
   "daijoubu-nya": [
     "daijoubu",
@@ -133,6 +157,12 @@
   "fire-nya": [
     "fire"
   ],
+  "freeze-nya": [
+    "freeze"
+  ],
+  "gattai-nya": [
+    "gattai"
+  ],
   "gerokowa-nya": [
     "gerokowa"
   ],
@@ -151,6 +181,9 @@
   "good-nya": [
     "good"
   ],
+  "goron-goron-nya": [
+    "goron-goron"
+  ],
   "gorua-nya": [
     "gorua"
   ],
@@ -165,8 +198,23 @@
     "ha",
     "startle"
   ],
+  "hachi-nya": [
+    "hachi"
+  ],
   "hai-nya": [
     "hai"
+  ],
+  "haniwa-nya": [
+    "haniwa"
+  ],
+  "haniwa-nya-noroi": [],
+  "haniwa-nya-purupuru": [],
+  "haniwa-nya-shousei": [],
+  "haniwa-nya-shutudo": [],
+  "haniwa-nya-spin": [],
+  "haniwa-nya-yatta": [],
+  "hansei-nya": [
+    "hansei"
   ],
   "hare-nya": [
     "hare",
@@ -176,12 +224,18 @@
     "hate",
     "question"
   ],
+  "hebi-nya": [
+    "hebi"
+  ],
   "help-nya": [
     "help"
   ],
   "hige-nya": [
     "hige",
     "mustache"
+  ],
+  "hirameita-nya": [
+    "hirameita"
   ],
   "hituji-nya": [
     "hituji",
@@ -214,6 +268,12 @@
     "hueta",
     "double"
   ],
+  "hug-nya": [
+    "hug"
+  ],
+  "hyoui-nya": [
+    "hyoui"
+  ],
   "hyun-nya": [
     "hyun"
   ],
@@ -221,9 +281,15 @@
     "ie",
     "house"
   ],
+  "ika-nya": [
+    "ika"
+  ],
   "inai-nya": [
     "inai",
     "disappear"
+  ],
+  "inosisi-nya": [
+    "inosisi"
   ],
   "inu-nya": [
     "inu",
@@ -236,6 +302,9 @@
   "issue-mada-nai-nya": [
     "issue-mada-nai",
     "no-issue-yet"
+  ],
+  "itabasami-nya": [
+    "itabasami"
   ],
   "itsumo-sumanai-nya": [
     "itsumo-sumanai",
@@ -374,6 +443,9 @@
   "kuro_ok": [
     "black-ok"
   ],
+  "kusa-nya": [
+    "kusa"
+  ],
   "kyapi-nya": [
     "kyapi"
   ],
@@ -391,6 +463,9 @@
   "lgtm-nya": [
     "lgtm"
   ],
+  "lion-nya": [
+    "lion"
+  ],
   "love-nya": [
     "love"
   ],
@@ -404,6 +479,9 @@
   ],
   "magic-nya": [
     "magic"
+  ],
+  "maguro-no-osushi-nya": [
+    "maguro-no-osushi"
   ],
   "mail-nya": [
     "mail"
@@ -460,6 +538,9 @@
     "momo",
     "peach"
   ],
+  "mosamosa-nya": [
+    "mosamosa"
+  ],
   "mou-dounidemo-nare-nya": [
     "mou-dounidemo-nare"
   ],
@@ -477,6 +558,9 @@
   "nadenade-nya": [
     "nadenade",
     "stroking"
+  ],
+  "nagameru-nya": [
+    "nagameru"
   ],
   "nageta-nya": [
     "nageta",
@@ -498,6 +582,9 @@
     "namae-ha-mada-nai",
     "no-name-yet"
   ],
+  "nanimo-sitenainoni-kowareta-nya": [
+    "nanimo-sitenainoni-kowareta"
+  ],
   "naosu-nya": [
     "naosu",
     "repair"
@@ -511,6 +598,9 @@
     "eggplant",
     "aubergine"
   ],
+  "neko-nya": [
+    "neko"
+  ],
   "nemui-nya": [
     "nemui",
     "sleepy"
@@ -519,6 +609,9 @@
     "neru",
     "go-to-bed"
   ],
+  "nesshou-nya": [
+    "nesshou"
+  ],
   "netenai-nya": [
     "netenai",
     "not-sleeping"
@@ -526,6 +619,9 @@
   "netsu-nya": [
     "netsu",
     "high-fever"
+  ],
+  "nezumi-nya": [
+    "nezumi"
   ],
   "ng-nya": [
     "ng"
@@ -541,9 +637,15 @@
     "nihonshu",
     "sake"
   ],
+  "nikai-kara-megusuri-nya": [
+    "nikai-kara-megusuri"
+  ],
   "niko-nya": [
     "niko",
     "smile"
+  ],
+  "niwatori-nya": [
+    "niwatori"
   ],
   "niyari-nya": [
     "niyari",
@@ -574,6 +676,9 @@
     "ocha",
     "tea"
   ],
+  "ochita-nya": [
+    "ochita"
+  ],
   "odaijini-nya": [
     "odaijini",
     "take-care"
@@ -595,6 +700,9 @@
   "okusuri-nya": [
     "okusuri",
     "medicine"
+  ],
+  "omoi-nya": [
+    "omoi"
   ],
   "onaka-suita-nya": [
     "onaka-suita",
@@ -621,6 +729,12 @@
   "ouen-nya2": [
     "ouen2",
     "cheering2"
+  ],
+  "paaan-nya": [
+    "paaan"
+  ],
+  "panda-nya": [
+    "panda"
   ],
   "patari-nya": [
     "patari"
@@ -686,6 +800,12 @@
     "samui",
     "cold"
   ],
+  "santa-nya": [
+    "santa"
+  ],
+  "saru-nya": [
+    "saru"
+  ],
   "sayonara-nya": [
     "sayonara",
     "good-bye"
@@ -704,6 +824,9 @@
   "seya-nya": [
     "seya"
   ],
+  "shouka-nya": [
+    "shouka"
+  ],
   "simasima-nya": [
     "simasima",
     "stripe"
@@ -720,6 +843,9 @@
   ],
   "soccer-nya": [
     "soccer"
+  ],
+  "sodateru-nya": [
+    "sodateru"
   ],
   "sore-nya": [
     "sore",
@@ -745,6 +871,9 @@
   "summer-nya": [
     "summer"
   ],
+  "suteru-nya": [
+    "suteru"
+  ],
   "suzusi-nya": [
     "suzusi",
     "electric-fan"
@@ -756,6 +885,9 @@
   "takkyu-nya": [
     "takkyu",
     "ping-pong"
+  ],
+  "tako-nya": [
+    "tako"
   ],
   "tanuki-nya": [
     "tanuki",
@@ -807,6 +939,9 @@
   "togetoge-nya": [
     "togetoge",
     "spiky"
+  ],
+  "tora-nya": [
+    "tora"
   ],
   "toratoratoratora-trouble-nya": [
     "toratoratoratora-trouble"
@@ -863,6 +998,9 @@
     "usagi",
     "rabbit"
   ],
+  "usi-nya": [
+    "usi"
+  ],
   "uum-nya": [
     "uum",
     "hmm"
@@ -870,6 +1008,9 @@
   "uwame-nya": [
     "uwame",
     "upturned-eyes"
+  ],
+  "virus-nya": [
+    "virus"
   ],
   "wao-nya": [
     "wao",
@@ -899,6 +1040,9 @@
     "yareyare",
     "oh-dear"
   ],
+  "yatta-nya": [
+    "yatta"
+  ],
   "yoga-nya": [
     "yoga"
   ],
@@ -913,9 +1057,15 @@
     "youkoso",
     "welcome"
   ],
+  "yukidaru-nya": [
+    "yukidaru"
+  ],
   "yutai-ridatsu-nya": [
     "yutai-ridatsu",
     "astral-projection"
+  ],
+  "zombie-nya": [
+    "zombie"
   ],
   "zuko-nya": [
     "zuko",
