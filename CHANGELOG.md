@@ -1,6 +1,10 @@
 # Changelog
 
-## v0.2.0 - 2025-03-15
+## v0.3.0 - 2025-03-15
+
+* ✨ Add nekochan emojis (2025.02) (ref: [Introduction of additional nekochan emojis in Feb 2025(in Japanese)](https://note.com/shikamatsu/n/ncd113e01e2a4))
+
+## v0.2.0 - 2025-03-13
 
 * ✨ Add transform option
 
