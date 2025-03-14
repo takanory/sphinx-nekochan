@@ -131,4 +131,5 @@ nekochan_emojis
 about
 background
 japanese
+changelog
 ```

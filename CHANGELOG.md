@@ -1,6 +1,6 @@
 # Changelog
 
-## v0.2.0 - 2025-03-15
+## v0.2.0 - 2025-03-13
 
 * ✨ Add transform option
 
