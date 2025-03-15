@@ -36,6 +36,10 @@
     "bakushou",
     "lol"
   ],
+  "banban-nya": [
+    "banban",
+    "bangbang"
+  ],
   "banya-nya": [
     "banana"
   ],
@@ -46,8 +50,14 @@
   "barista-nya": [
     "barista"
   ],
+  "barrier-nya": [
+    "barrier"
+  ],
   "basketball-nya": [
     "basketball"
+  ],
+  "beam-nya": [
+    "beam"
   ],
   "beer-nya": [
     "beer"
@@ -55,6 +65,9 @@
   "benkyou-nya ": [
     "benkyou",
     "study"
+  ],
+  "big-love-nya": [
+    "big-love"
   ],
   "bikkuri-nya": [
     "bikkuri",
@@ -82,6 +95,10 @@
   "camera-nya": [
     "camera"
   ],
+  "cat-rareta-nya": [
+    "cat-rareta",
+    "cat-mutilation"
+  ],
   "chira-nya": [
     "chira",
     "glimpse"
@@ -89,8 +106,20 @@
   "choo-choo-train-nya": [
     "choo-choo-train"
   ],
+  "chudoon-nya": [
+    "chudoon",
+    "explosion"
+  ],
   "clap-nya": [
     "clap"
+  ],
+  "css-kanzen-ni-rikai-sita-nya": [
+    "css-kanzen-ni-rikai-sita",
+    "css-fully-understood"
+  ],
+  "dai-kansha-nya": [
+    "dai-kansha",
+    "deep-gratitude"
   ],
   "daijoubu-nya": [
     "daijoubu",
@@ -133,6 +162,13 @@
   "fire-nya": [
     "fire"
   ],
+  "freeze-nya": [
+    "freeze"
+  ],
+  "gattai-nya": [
+    "gattai",
+    "fusion"
+  ],
   "gerokowa-nya": [
     "gerokowa"
   ],
@@ -151,6 +187,10 @@
   "good-nya": [
     "good"
   ],
+  "goron-goron-nya": [
+    "goron-goron",
+    "rolling"
+  ],
   "gorua-nya": [
     "gorua"
   ],
@@ -165,8 +205,25 @@
     "ha",
     "startle"
   ],
+  "hachi-nya": [
+    "hachi",
+    "bee"
+  ],
   "hai-nya": [
     "hai"
+  ],
+  "haniwa-nya": [
+    "haniwa"
+  ],
+  "haniwa-nya-noroi": [],
+  "haniwa-nya-purupuru": [],
+  "haniwa-nya-shousei": [],
+  "haniwa-nya-shutudo": [],
+  "haniwa-nya-spin": [],
+  "haniwa-nya-yatta": [],
+  "hansei-nya": [
+    "hansei",
+    "regret"
   ],
   "hare-nya": [
     "hare",
@@ -176,12 +233,21 @@
     "hate",
     "question"
   ],
+  "hebi-nya": [
+    "hebi",
+    "snake",
+    "python"
+  ],
   "help-nya": [
     "help"
   ],
   "hige-nya": [
     "hige",
     "mustache"
+  ],
+  "hirameita-nya": [
+    "hirameita",
+    "idea"
   ],
   "hituji-nya": [
     "hituji",
@@ -214,6 +280,13 @@
     "hueta",
     "double"
   ],
+  "hug-nya": [
+    "hug"
+  ],
+  "hyoui-nya": [
+    "hyoui",
+    "posession"
+  ],
   "hyun-nya": [
     "hyun"
   ],
@@ -221,9 +294,17 @@
     "ie",
     "house"
   ],
+  "ika-nya": [
+    "ika",
+    "squid"
+  ],
   "inai-nya": [
     "inai",
     "disappear"
+  ],
+  "inosisi-nya": [
+    "inosisi",
+    "boar"
   ],
   "inu-nya": [
     "inu",
@@ -236,6 +317,9 @@
   "issue-mada-nai-nya": [
     "issue-mada-nai",
     "no-issue-yet"
+  ],
+  "itabasami-nya": [
+    "itabasami"
   ],
   "itsumo-sumanai-nya": [
     "itsumo-sumanai",
@@ -374,6 +458,10 @@
   "kuro_ok": [
     "black-ok"
   ],
+  "kusa-nya": [
+    "kusa",
+    "grass"
+  ],
   "kyapi-nya": [
     "kyapi"
   ],
@@ -391,6 +479,9 @@
   "lgtm-nya": [
     "lgtm"
   ],
+  "lion-nya": [
+    "lion"
+  ],
   "love-nya": [
     "love"
   ],
@@ -404,6 +495,10 @@
   ],
   "magic-nya": [
     "magic"
+  ],
+  "maguro-no-osushi-nya": [
+    "maguro-no-osushi",
+    "sushi"
   ],
   "mail-nya": [
     "mail"
@@ -460,6 +555,9 @@
     "momo",
     "peach"
   ],
+  "mosamosa-nya": [
+    "mosamosa"
+  ],
   "mou-dounidemo-nare-nya": [
     "mou-dounidemo-nare"
   ],
@@ -477,6 +575,9 @@
   "nadenade-nya": [
     "nadenade",
     "stroking"
+  ],
+  "nagameru-nya": [
+    "nagameru"
   ],
   "nageta-nya": [
     "nageta",
@@ -498,6 +599,9 @@
     "namae-ha-mada-nai",
     "no-name-yet"
   ],
+  "nanimo-sitenainoni-kowareta-nya": [
+    "nanimo-sitenainoni-kowareta"
+  ],
   "naosu-nya": [
     "naosu",
     "repair"
@@ -511,6 +615,10 @@
     "eggplant",
     "aubergine"
   ],
+  "neko-nya": [
+    "neko",
+    "cat"
+  ],
   "nemui-nya": [
     "nemui",
     "sleepy"
@@ -519,6 +627,9 @@
     "neru",
     "go-to-bed"
   ],
+  "nesshou-nya": [
+    "nesshou"
+  ],
   "netenai-nya": [
     "netenai",
     "not-sleeping"
@@ -526,6 +637,10 @@
   "netsu-nya": [
     "netsu",
     "high-fever"
+  ],
+  "nezumi-nya": [
+    "nezumi",
+    "mouse"
   ],
   "ng-nya": [
     "ng"
@@ -541,9 +656,16 @@
     "nihonshu",
     "sake"
   ],
+  "nikai-kara-megusuri-nya": [
+    "nikai-kara-megusuri"
+  ],
   "niko-nya": [
     "niko",
     "smile"
+  ],
+  "niwatori-nya": [
+    "niwatori",
+    "chicken"
   ],
   "niyari-nya": [
     "niyari",
@@ -574,6 +696,10 @@
     "ocha",
     "tea"
   ],
+  "ochita-nya": [
+    "ochita",
+    "fall"
+  ],
   "odaijini-nya": [
     "odaijini",
     "take-care"
@@ -595,6 +721,10 @@
   "okusuri-nya": [
     "okusuri",
     "medicine"
+  ],
+  "omoi-nya": [
+    "omoi",
+    "heavy"
   ],
   "onaka-suita-nya": [
     "onaka-suita",
@@ -621,6 +751,13 @@
   "ouen-nya2": [
     "ouen2",
     "cheering2"
+  ],
+  "paaan-nya": [
+    "paaan",
+    "cracker"
+  ],
+  "panda-nya": [
+    "panda"
   ],
   "patari-nya": [
     "patari"
@@ -669,7 +806,8 @@
   ],
   "raja-nya": [
     "raja",
-    "roger"
+    "roger",
+    "salute"
   ],
   "ringo-nya": [
     "ringo",
@@ -685,6 +823,14 @@
   "samui-nya": [
     "samui",
     "cold"
+  ],
+  "santa-nya": [
+    "santa",
+    "santa-claus"
+  ],
+  "saru-nya": [
+    "saru",
+    "monkey"
   ],
   "sayonara-nya": [
     "sayonara",
@@ -704,6 +850,10 @@
   "seya-nya": [
     "seya"
   ],
+  "shouka-nya": [
+    "shouka",
+    "fire-fighting"
+  ],
   "simasima-nya": [
     "simasima",
     "stripe"
@@ -720,6 +870,10 @@
   ],
   "soccer-nya": [
     "soccer"
+  ],
+  "sodateru-nya": [
+    "sodateru",
+    "growing"
   ],
   "sore-nya": [
     "sore",
@@ -745,6 +899,9 @@
   "summer-nya": [
     "summer"
   ],
+  "suteru-nya": [
+    "suteru"
+  ],
   "suzusi-nya": [
     "suzusi",
     "electric-fan"
@@ -756,6 +913,10 @@
   "takkyu-nya": [
     "takkyu",
     "ping-pong"
+  ],
+  "tako-nya": [
+    "tako",
+    "octpus"
   ],
   "tanuki-nya": [
     "tanuki",
@@ -807,6 +968,10 @@
   "togetoge-nya": [
     "togetoge",
     "spiky"
+  ],
+  "tora-nya": [
+    "tora",
+    "tiger"
   ],
   "toratoratoratora-trouble-nya": [
     "toratoratoratora-trouble"
@@ -863,6 +1028,10 @@
     "usagi",
     "rabbit"
   ],
+  "usi-nya": [
+    "usi",
+    "cow"
+  ],
   "uum-nya": [
     "uum",
     "hmm"
@@ -870,6 +1039,9 @@
   "uwame-nya": [
     "uwame",
     "upturned-eyes"
+  ],
+  "virus-nya": [
+    "virus"
   ],
   "wao-nya": [
     "wao",
@@ -899,6 +1071,9 @@
     "yareyare",
     "oh-dear"
   ],
+  "yatta-nya": [
+    "yatta"
+  ],
   "yoga-nya": [
     "yoga"
   ],
@@ -913,9 +1088,16 @@
     "youkoso",
     "welcome"
   ],
+  "yukidaru-nya": [
+    "yukidaruma",
+    "snowman"
+  ],
   "yutai-ridatsu-nya": [
     "yutai-ridatsu",
     "astral-projection"
+  ],
+  "zombie-nya": [
+    "zombie"
   ],
   "zuko-nya": [
     "zuko",
