@@ -226,9 +226,9 @@ class AllNekochanNoTextDirective(SphinxDirective):
 
         for name, data in nekochan_emoji.items():
             img_tag = create_nekochan_img_tag(name, height="64px")
-            # replace alt attiribute to title attribute
-            img_tag = img_tag.replace("alt=", "title=")
-            node_list.append(nodes.raw("", nodes.Text(img_tag), format="html"))
+            # add tooltip for emoji name
+            image = f'<span data-tooltip="{name}" data-flow="bottom">{img_tag}</span> '
+            node_list.append(nodes.raw("", nodes.Text(image), format="html"))
 
         return node_list
 
