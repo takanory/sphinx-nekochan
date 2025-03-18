@@ -36,14 +36,15 @@ extensions = [
 ]
 ```
 
-### 3. Use `nekochan` role {nekochan}`clap-nya`
+### 3. Use `nekochan` role or directive {nekochan}`clap-nya`
 
-When you use the `nekochan` roll, you will see any Nekochan emoji.
+When you use the `nekochan` roll or directive, you will see any Nekochan emoji.
 
 ````{tab-set-code}
 ```{literalinclude} ./snippets/simple.md
 :language: markdown
 ```
+
 ```{literalinclude} ./snippets/simple.rst
 :language: rst
 ```
@@ -55,7 +56,6 @@ When you use the `nekochan` roll, you will see any Nekochan emoji.
 ```{include} ./snippets/simple.md
 ```
 
-
 ### 4. Customize emoji height and alt text {nekochan}`memo-nya`
 
 You can specify height and alt text with a semicolon(`;`) after the name of the `nekochan` role.
@@ -63,6 +63,7 @@ You can specify height and alt text with a semicolon(`;`) after the name of the 
 ````{tab-set-code}
 ```{literalinclude} ./snippets/with-height-alt.md
 :language: markdown
+
 ```
 ```{literalinclude} ./snippets/with-height-alt.rst
 :language: rst
