@@ -1,6 +1,6 @@
 """sphinx-nekochan emoji extension"""
 
-__version__ = "0.3.0"
+__version__ = "0.3.1"
 
 from functools import cache
 from importlib import resources
@@ -209,6 +209,30 @@ class AllNekochanDirective(SphinxDirective):
         return row
 
 
+class AllNekochanNoTextDirective(SphinxDirective):
+    """Directive to generate all Nekochan emoji list without text
+
+     see: https://sphinx-nekochan.readthedocs.io/nekochan_emojis.html
+     """
+    def run(self) -> list[nodes.Node]:
+        node_list = []
+
+        nekochan_emoji, _ = get_nekochan_emoji_data()
+
+        text = f"Number of Nekochan emojis: {len(nekochan_emoji)}"
+        node_list.append(nodes.Text(text))
+        p = nodes.paragraph()
+        node_list.append(p)
+
+        for name, data in nekochan_emoji.items():
+            img_tag = create_nekochan_img_tag(name, height="64px")
+            # add tooltip for emoji name
+            image = f'<span data-tooltip="{name}" data-flow="bottom">{img_tag}</span> '
+            node_list.append(nodes.raw("", nodes.Text(image), format="html"))
+
+        return node_list
+
+
 def setup(app: Sphinx) -> ExtensionMetadata:
     app.config.html_static_path.append(
         str(Path(__file__).parent.joinpath("_static").absolute())
@@ -216,6 +240,7 @@ def setup(app: Sphinx) -> ExtensionMetadata:
     app.add_css_file("sphinx_nekochan.css")
     app.add_role("nekochan", NekochanRole())
     app.add_directive("_all_nekochan", AllNekochanDirective)
+    app.add_directive("_all_nekochan_without_text", AllNekochanNoTextDirective)
 
     return {
         "version": __version__,

@@ -128,6 +128,7 @@ Also, you can specify transform option with a semicolon(`;`) after the alt text 
 :maxdepth: 1
 
 nekochan_emojis
+nekochan_emojis_without_text
 about
 background
 japanese
