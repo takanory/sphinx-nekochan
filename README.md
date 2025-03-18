@@ -46,7 +46,7 @@ Welcome to nekochan emoji :nekochan:`banzai` world!!
 * I love :nekochan:`beer`
 ```
 
-![nekochan emoji with text](https://raw.githubusercontent.com/takanory/sphinx-nekochan/main/nekochan-emoji-with-text.gif)
+![nekochan emoji with text](https://raw.githubusercontent.com/takanory/sphinx-nekochan/main/nekochan-emoji-with-text.png)
 
 ## Customize emoji height and alt text
 
