@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.3.1 - 2025-03-18
+
+* 📝 Add all nekochan emojis without text page and directive
+
 ## v0.3.0 - 2025-03-15
 
 * ✨ Add nekochan emojis (2025.02) (ref: [Introduction of additional nekochan emojis in Feb 2025(in Japanese)](https://note.com/shikamatsu/n/ncd113e01e2a4))
