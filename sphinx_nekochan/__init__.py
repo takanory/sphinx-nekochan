@@ -8,6 +8,7 @@ from pathlib import Path
 
 import json
 from docutils import nodes
+from docutils.parsers.rst import directives
 from sphinx.application import Sphinx
 from sphinx.directives import SphinxDirective
 from sphinx.util.docutils import SphinxRole
@@ -122,6 +123,24 @@ class NekochanRole(SphinxRole):
 
         node = nodes.raw("", nodes.Text(img_tag), format="html")
         return [node], []
+
+
+class NekochanDirective(SphinxDirective):
+    """Role to display Nekochan emoji"""
+
+    required_arguments = 1
+    option_spec = {
+        "alt": directives.unchanged,
+        "height": directives.unchanged,
+        "transform": directives.unchanged,
+    }
+
+    def run(self) -> list[nodes.Node]:
+
+        name = self.arguments[0]
+        img_tag = create_nekochan_img_tag(name, **self.options)
+        node = nodes.raw("", nodes.Text(img_tag), format="html")
+        return [node]
 
 
 class AllNekochanDirective(SphinxDirective):
@@ -239,6 +258,7 @@ def setup(app: Sphinx) -> ExtensionMetadata:
     )
     app.add_css_file("sphinx_nekochan.css")
     app.add_role("nekochan", NekochanRole())
+    app.add_directive("nekochan", NekochanDirective)
     app.add_directive("_all_nekochan", AllNekochanDirective)
     app.add_directive("_all_nekochan_without_text", AllNekochanNoTextDirective)
 
