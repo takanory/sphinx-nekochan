@@ -1,18 +1,23 @@
 # sphinx-nekochan
 
-[![PyPI][pypi-badge]]
+[![PyPI][pypi-badge]][pypi-link]
+[![Python versions][versions-badge]][pypi-link]
 [![GitHub Actions][github-ci-badge]][github-ci-link]
 [![Documentation status][rtd-badge]][rtd-link]
 [![PyPI - Download][downloads-badge]][downloads-link]
+[![License][license-badge]][license-link]
 
 [pypi-badge]: https://img.shields.io/pypi/v/sphinx-nekochan.svg
 [pypi-link]: https://pypi.org/project/sphinx-nekochan/
+[versions-badge]: https://img.shields.io/pypi/pyversions/sphinx-nekochan.svg
 [github-ci-badge]: https://github.com/takanory/sphinx-nekochan/actions/workflows/workflow.yml/badge.svg
 [github-ci-link]: https://github.com/takanory/sphinx-nekochan/actions
 [rtd-badge]: https://readthedocs.org/projects/sphinx-nekochan/badge/?version=latest
 [rtd-link]: https://sphinx-nekochan.readthedocs.io/
-[downloads-badge]: https://img.shields.io/pypi/dw/sphinx-nekochan?label=pypi%20installs
+[downloads-badge]: https://img.shields.io/pypi/dm/sphinx-nekochan.svg
 [downloads-link]: https://pypistats.org/packages/sphinx-nekochan
+[license-badge]: https://img.shields.io/pypi/l/sphinx-nekochan.svg
+[license-link]: https://github.com/takanory/sphinx-nekochan/blob/main/LICENSE
 
 A Sphinx extension for adding the **Nekochan(cat) emoji** to documents.
 
