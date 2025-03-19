@@ -1,9 +1,7 @@
 # sphinx-nekochan
 
 
-```{image} https://img.shields.io/pypi/v/sphinx-nekochan.svg
-:target: https://pypi.org/project/sphinx-nekochan/
-```
+[![PyPI][https://img.shields.io/pypi/v/sphinx-nekochan.svg]][https://pypi.org/project/sphinx-nekochan/]
 
 ```{image} https://github.com/takanory/sphinx-nekochan/actions/workflows/workflow.yml/badge.svg
 :target: https://github.com/takanory/sphinx-nekochan/actions
