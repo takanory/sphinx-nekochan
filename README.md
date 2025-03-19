@@ -1,19 +1,18 @@
 # sphinx-nekochan
 
+[![PyPI][pypi-badge]]
+[![GitHub Actions][github-ci-badge]][github-ci-link]
+[![Documentation status][rtd-badge]][rtd-link]
+[![PyPI - Download][downloads-badge]][downloads-link]
 
-[![PyPI](https://img.shields.io/pypi/v/sphinx-nekochan.svg])](https://pypi.org/project/sphinx-nekochan/)
-
-```{image} https://github.com/takanory/sphinx-nekochan/actions/workflows/workflow.yml/badge.svg
-:target: https://github.com/takanory/sphinx-nekochan/actions
-```
-
-```{image} https://readthedocs.org/projects/sphinx-nekochan/badge/?version=latest
-:target: https://sphinx-nekochan.readthedocs.io/
-```
-
-```{image} https://img.shields.io/pypi/dw/sphinx-nekochan?label=pypi%20installs
-https://pypistats.org/packages/sphinx-nekochan
-```
+[pypi-badge]: https://img.shields.io/pypi/v/sphinx-nekochan.svg
+[pypi-link]: https://pypi.org/project/sphinx-nekochan/
+[github-ci-badge]: https://github.com/takanory/sphinx-nekochan/actions/workflows/workflow.yml/badge.svg
+[github-ci-link]: https://github.com/takanory/sphinx-nekochan/actions
+[rtd-badge]: https://readthedocs.org/projects/sphinx-nekochan/badge/?version=latest
+[rtd-link]: https://sphinx-nekochan.readthedocs.io/
+[downloads-badge]: https://img.shields.io/pypi/dw/sphinx-nekochan?label=pypi%20installs
+[downloads-link]: https://pypistats.org/packages/sphinx-nekochan
 
 A Sphinx extension for adding the **Nekochan(cat) emoji** to documents.
 
