@@ -24,18 +24,21 @@ extensions = [
 ]
 ```
 
-## Use `nekochan` role
+## Use `nekochan` role or directive
 
-When you use the `nekochan` roll, you will see any nekochan emoji.
+When you use the `nekochan` roll or directive, you will see any nekochan emoji.
 
 * markdown
 
-```markdown
+````markdown
 Welcome to nekochan emoji {nekochan}`banzai` world!!
 
 * Enjoy nekochan emoji {nekochan}`choo-choo-train`
 * I love {nekochan}`beer`
+
+```{nekochan} melty
 ```
+````
 
 * reStructuredText
 
@@ -44,6 +47,8 @@ Welcome to nekochan emoji :nekochan:`banzai` world!!
 
 * Enjoy nekochan emoji :nekochan:`choo-choo-train`
 * I love :nekochan:`beer`
+
+.. nekochan:: melty
 ```
 
 ![nekochan emoji with text](https://raw.githubusercontent.com/takanory/sphinx-nekochan/main/nekochan-emoji-with-text.gif)
@@ -54,11 +59,17 @@ You can specify height and alt text with a semicolon(`;`) after the name of the 
 
 * markdown
 
-```markdown
+````markdown
 * Big bear nekochan {nekochan}`kuma-nya;2em`
 * Huge hot-sprint nekochan {nekochan}`hot-spring;128px`
 * Customize alt text for emoji {nekochan}`gohan-taberu;3em;Nekochan eating rice ball`
+
+
+```{nekochan} lgtm
+:alt: Looks Good To Me
+:height: 3em
 ```
+````
 
 * reStructuredText
 
@@ -66,6 +77,11 @@ You can specify height and alt text with a semicolon(`;`) after the name of the 
 * Big bear nekochan :nekochan:`kuma-nya;2em`
 * Huge hot-sprint nekochan :nekochan:`hot-spring;128px`
 * Customize alt text for emoji :nekochan:`gohan-taberu;3em;Nekochan eating rice ball`
+
+
+.. nekochan:: lgtm
+   :alt: Looks Good To Me
+   :height: 3em
 ```
 
 ![customize emoji height and alt text](https://raw.githubusercontent.com/takanory/sphinx-nekochan/main/custom-height-alt.png)
@@ -76,16 +92,25 @@ Also, you can specify transform option with a semicolon(`;`) after the alt text 
 
 * markdown
 
-```markdown
+````markdown
 * Skip {nekochan}`skip-nya;2em` rotated 90 degrees clockwise {nekochan}`skip-nya;2em;;rotate-90`
 * Flip the left and right side of the {nekochan}`yoshi;2em` Yoshi emoji {nekochan}`yoshi;2em;;flip-horizontal`
+
+```{nekochan} snake
+:transform: flip-vertical
+:height: 2em
 ```
+````
 
 * reStructuredText
 
 ```rst
 * Skip :nekochan:`skip-nya;2em` rotated 90 degrees clockwise :nekochan:`skip-nya;2em;;rotate-90`
 * Flip the left and right side of the :nekochan:`yoshi;2em` Yoshi emoji :nekochan:`yoshi;2em;;flip-horizontal`
+
+.. nekochan:: snake
+   :transform: flip-vertical
+   :height: 2em
 ```
 
 ![Transform emoji](https://raw.githubusercontent.com/takanory/sphinx-nekochan/main/transform-emoji.png)
