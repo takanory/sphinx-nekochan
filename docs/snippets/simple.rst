@@ -1,4 +1,6 @@
-Welcome to Nekochan emoji {nekochan}`banzai` world!!
+Welcome to Nekochan emoji :nekochan:`banzai` world!!
 
-* Enjoy Nekochan emoji {nekochan}`ok`
-* I love {nekochan}`beer`
+* Enjoy Nekochan emoji :nekochan:`ok`
+* I love :nekochan:`beer`
+
+.. nekochan:: melty
