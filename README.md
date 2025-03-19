@@ -1,5 +1,22 @@
 # sphinx-nekochan
 
+
+```{image} https://img.shields.io/pypi/v/sphinx-nekochan.svg
+:target: https://pypi.org/project/sphinx-nekochan/
+```
+
+```{image} https://github.com/takanory/sphinx-nekochan/actions/workflows/workflow.yml/badge.svg
+:target: https://github.com/takanory/sphinx-nekochan/actions
+```
+
+```{image} https://readthedocs.org/projects/sphinx-nekochan/badge/?version=latest
+:target: https://sphinx-nekochan.readthedocs.io/
+```
+
+```{image} https://img.shields.io/pypi/dw/sphinx-nekochan?label=pypi%20installs
+https://pypistats.org/packages/sphinx-nekochan
+```
+
 A Sphinx extension for adding the **Nekochan(cat) emoji** to documents.
 
 See [the sphinx-nekochan documantation](https://sphinx-nekochan.readthedocs.io/) for more details.
