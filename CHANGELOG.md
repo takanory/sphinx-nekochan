@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.3.2 - 2025-03-19
+
+* ✨ Add nekochan directive
+
 ## v0.3.1 - 2025-03-18
 
 * 📝 Add all nekochan emojis without text page and directive
