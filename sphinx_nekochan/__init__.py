@@ -182,7 +182,7 @@ class AllNekochanDirective(SphinxDirective):
         js = """<script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
 <script>
 var options = {valueNames: ['name', 'aliases']};
-var userList = new List('users', options);
+var userList = new List('nekochan', options);
 </script>"""
         search_text = '<input class="search" placeholder="Search" />'
         js_node =  nodes.raw("", nodes.Text(js), format="html")
