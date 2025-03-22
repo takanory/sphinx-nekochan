@@ -179,7 +179,7 @@ class AllNekochanDirective(SphinxDirective):
             tbody += self.create_row(name, nekochan_emoji[name]["aliases"])
 
         # add javascript
-        js = """
+        js = """<script>
 var options = {valueNames: ['name', 'aliases']};
 var userList = new List('users', options);
 </script>"""
