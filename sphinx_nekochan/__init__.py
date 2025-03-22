@@ -1,6 +1,6 @@
 """sphinx-nekochan emoji extension"""
 
-__version__ = "0.3.2"
+__version__ = "0.3.3"
 
 from functools import cache
 from importlib import resources
@@ -155,25 +155,39 @@ class AllNekochanDirective(SphinxDirective):
         nekochan_emoji, _ = get_nekochan_emoji_data()
 
         text = f"Number of Nekochan emojis: {len(nekochan_emoji)}"
-        node_list.append(nodes.Text(text))
+        paragraph = nodes.paragraph()
+        paragraph.append(nodes.Text(text))
+        node_list.append(paragraph)
 
-        first_char = ""
+        # add div
+        container = nodes.container()
+        container.attributes["ids"] = ["nekochan"]
+        search_text = '<input class="search" placeholder="Search" />'
+        search =  nodes.raw("", nodes.Text(search_text), format="html")
+        container.append(search)
+
+        # create table and header
+        table, tgroup = self.create_table_header()
+        tbody = nodes.tbody()
+        tbody.set_class("list")
+        tgroup += tbody
+
+        container.append(table)
+        node_list.append(container)
+
         for name, data in nekochan_emoji.items():
-            if name[0] != first_char:
-                first_char = name[0]
-                # create section and title(H2)
-                section = nodes.section(ids=[first_char])
-                title = nodes.title(first_char.upper(), first_char.upper())
-                section.append(title)
-                node_list.append(section)
-
-                # create table and header
-                table, tgroup = self.create_table_header()
-                tbody = nodes.tbody()
-                tgroup += tbody
-                node_list.append(table)
             # add row to table
             tbody += self.create_row(name, nekochan_emoji[name]["aliases"])
+
+        # add javascript for list.js
+        js = """<script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
+<script>
+var options = {valueNames: ['name', 'aliases']};
+var userList = new List('nekochan', options);
+</script>"""
+        search_text = '<input class="search" placeholder="Search" />'
+        js_node =  nodes.raw("", nodes.Text(js), format="html")
+        container.append(js_node)
 
         return node_list
 
@@ -218,12 +232,14 @@ class AllNekochanDirective(SphinxDirective):
         cell = nodes.entry()
         row += cell
         cell += nodes.literal(name, name)
+        cell.set_class("name")
         cell = nodes.entry()
         row += cell
         for idx, alias in enumerate(aliases):
             if idx > 0:
                 cell += nodes.Text(", ")
             cell += nodes.literal(alias, alias)
+        cell.set_class("aliases")
 
         return row
 

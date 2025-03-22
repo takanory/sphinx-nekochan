@@ -56,6 +56,7 @@ html_theme_options = {
             "class": "fa-brands fa-solid fa-github fa-2x",
         },
     ],
+    
 }
 
 html_css_files = [

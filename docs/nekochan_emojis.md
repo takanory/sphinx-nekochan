@@ -31,5 +31,11 @@ Each emoji can be specified by name or alias.
 If you want to add or edit aliases to any Nekochan emoji, please send a Pull Request to [aliases.json](https://github.com/takanory/sphinx-nekochan/blob/main/sphinx_nekochan/data/aliases.json).
 ```
 
+```{tip}
+You can search nekochan emojis.
+
+![](images/nekochan-search.gif)
+```
+
 ```{_all_nekochan}
 ```
