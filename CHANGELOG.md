@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.3.3 - 2025-03-22
+
+* 📝 Add search function to nekochan emoji list(by [List.js](https://listjs.com/))
+
 ## v0.3.2 - 2025-03-19
 
 * ✨ Add nekochan directive
