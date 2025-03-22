@@ -169,6 +169,7 @@ class AllNekochanDirective(SphinxDirective):
         # create table and header
         table, tgroup = self.create_table_header()
         tbody = nodes.tbody()
+        tbody.set_class("list")
         tgroup += tbody
 
         container.append(table)
@@ -178,7 +179,7 @@ class AllNekochanDirective(SphinxDirective):
             # add row to table
             tbody += self.create_row(name, nekochan_emoji[name]["aliases"])
 
-        # add javascript
+        # add javascript for list.js
         js = """<script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
 <script>
 var options = {valueNames: ['name', 'aliases']};
@@ -238,7 +239,7 @@ var userList = new List('nekochan', options);
             if idx > 0:
                 cell += nodes.Text(", ")
             cell += nodes.literal(alias, alias)
-        cell.set_class("aliaess")
+        cell.set_class("aliases")
 
         return row
 

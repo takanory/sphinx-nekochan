@@ -63,10 +63,6 @@ html_css_files = [
     "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css",
 ]
 
-html_js_files = [
-    "https://cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js",
-]
-
 # https://sphinxext-opengraph.readthedocs.io/
 ogp_site_url = "http://sphinx-nekochan.readthedocs.io/"
 
