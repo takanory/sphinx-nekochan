@@ -21,6 +21,9 @@
 .nekochan-flip-both {
   transform: scale(-1);
 }
+.width-64px {
+  width: 64px;
+}
 
 /* https://www.cssportal.com/css-tooltip-generator/ */
 [data-tooltip] {
