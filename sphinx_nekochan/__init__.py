@@ -1,6 +1,6 @@
 """sphinx-nekochan emoji extension"""
 
-__version__ = "0.3.3"
+__version__ = "0.3.4"
 
 from functools import cache
 from importlib import resources
@@ -191,9 +191,11 @@ var userList = new List('nekochan', options);
 
         return node_list
 
+
     def create_table_header(self) -> nodes.Node:
         """create table and table header node"""
         table = nodes.table()
+        # table["classes"] += ["colwidths-given"]
 
         tgroup = nodes.tgroup(cols=3)
         table += tgroup
@@ -209,6 +211,8 @@ var userList = new List('nekochan', options);
         row = nodes.row()
         thead += row
         cell = nodes.entry()
+        # add class for setting emoji width
+        cell["classes"].append("width-64px")
         row += cell
         cell += nodes.Text("Emoji", "Emoji")
         cell = nodes.entry()
