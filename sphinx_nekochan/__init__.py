@@ -195,7 +195,6 @@ var userList = new List('nekochan', options);
     def create_table_header(self) -> nodes.Node:
         """create table and table header node"""
         table = nodes.table()
-        # table["classes"] += ["colwidths-given"]
 
         tgroup = nodes.tgroup(cols=3)
         table += tgroup
