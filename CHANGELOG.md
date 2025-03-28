@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.3.4 - 2025-03-28
+
+* 📝 Set the width to the emoji cell of nekochan emoji list
+
 ## v0.3.3 - 2025-03-22
 
 * 📝 Add search function to nekochan emoji list(by [List.js](https://listjs.com/))
