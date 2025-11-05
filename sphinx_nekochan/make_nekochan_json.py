@@ -13,7 +13,7 @@ from __init__ import NEKOCHAN_EMOJI_JSON
 URL = "https://note.com/shikamatsu/n/nd217dc0617db"
 
 DATADIR = "data"
-ZIPFILE = "neco202502.zip"
+ZIPFILE = "neco202511.zip"
 ALIASES_JSON = "aliases.json"
 
 MIME_TYPES = {
