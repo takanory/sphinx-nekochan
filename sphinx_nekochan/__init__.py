@@ -242,7 +242,7 @@ var userList = new List('nekochan', options);
             if idx > 0:
                 cell += nodes.Text(", ")
             cell += nodes.literal(alias, alias)
-        cell.set_class("aliases")
+        cell['classes'].append("aliases")
 
         return row
 
