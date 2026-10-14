@@ -169,7 +169,7 @@ class AllNekochanDirective(SphinxDirective):
         # create table and header
         table, tgroup = self.create_table_header()
         tbody = nodes.tbody()
-        tbody.set_class("list")
+        tbody['classes'].append("list")
         tgroup += tbody
 
         container.append(table)
@@ -235,7 +235,7 @@ var userList = new List('nekochan', options);
         cell = nodes.entry()
         row += cell
         cell += nodes.literal(name, name)
-        cell.set_class("name")
+        cell['classes'].append("name")
         cell = nodes.entry()
         row += cell
         for idx, alias in enumerate(aliases):
