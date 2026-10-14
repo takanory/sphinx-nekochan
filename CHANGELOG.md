@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.5.0 - 2026-10-14
+
+* ✨ Add nekochan emojis (2026.10) (ref: [Introduction of additional nekochan emojis in Oct 2026(in Japanese)](https://note.com/shikamatsu/n/ndbb4df65ea71))
+
 ## v0.4.0 - 2025-11-05
 
 * ✨ Add nekochan emojis (2025.11) (ref: [Introduction of additional nekochan emojis in Nov 2025(in Japanese)](https://note.com/shikamatsu/n/n089f4d05aa85))
