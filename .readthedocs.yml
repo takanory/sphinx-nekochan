@@ -6,9 +6,9 @@ version: 2
 
 # Set the OS, Python version, and other tools you might need
 build:
-  os: ubuntu-24.04
+  os: ubuntu-latest
   tools:
-    python: "3.13"
+    python: latest
   commands:
     - pip install .[docs]
     - sphinx-build -b html docs $READTHEDOCS_OUTPUT/html
