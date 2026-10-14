@@ -136,7 +136,6 @@ class NekochanDirective(SphinxDirective):
     }
 
     def run(self) -> list[nodes.Node]:
-
         name = self.arguments[0]
         img_tag = create_nekochan_img_tag(name, **self.options)
         node = nodes.raw("", nodes.Text(img_tag), format="html")
@@ -163,13 +162,13 @@ class AllNekochanDirective(SphinxDirective):
         container = nodes.container()
         container.attributes["ids"] = ["nekochan"]
         search_text = '<input class="search" placeholder="Search" />'
-        search =  nodes.raw("", nodes.Text(search_text), format="html")
+        search = nodes.raw("", nodes.Text(search_text), format="html")
         container.append(search)
 
         # create table and header
         table, tgroup = self.create_table_header()
         tbody = nodes.tbody()
-        tbody['classes'].append("list")
+        tbody["classes"].append("list")
         tgroup += tbody
 
         container.append(table)
@@ -186,11 +185,10 @@ var options = {valueNames: ['name', 'aliases']};
 var userList = new List('nekochan', options);
 </script>"""
         search_text = '<input class="search" placeholder="Search" />'
-        js_node =  nodes.raw("", nodes.Text(js), format="html")
+        js_node = nodes.raw("", nodes.Text(js), format="html")
         container.append(js_node)
 
         return node_list
-
 
     def create_table_header(self) -> nodes.Node:
         """create table and table header node"""
@@ -235,14 +233,14 @@ var userList = new List('nekochan', options);
         cell = nodes.entry()
         row += cell
         cell += nodes.literal(name, name)
-        cell['classes'].append("name")
+        cell["classes"].append("name")
         cell = nodes.entry()
         row += cell
         for idx, alias in enumerate(aliases):
             if idx > 0:
                 cell += nodes.Text(", ")
             cell += nodes.literal(alias, alias)
-        cell['classes'].append("aliases")
+        cell["classes"].append("aliases")
 
         return row
 
@@ -250,8 +248,9 @@ var userList = new List('nekochan', options);
 class AllNekochanNoTextDirective(SphinxDirective):
     """Directive to generate all Nekochan emoji list without text
 
-     see: https://sphinx-nekochan.readthedocs.io/nekochan_emojis.html
-     """
+    see: https://sphinx-nekochan.readthedocs.io/nekochan_emojis.html
+    """
+
     def run(self) -> list[nodes.Node]:
         node_list = []
 
