@@ -1,8 +1,12 @@
 {
+  "aburi-cheese-salmon-osushi-nya": [
+    "aburi-cheese-salmon-osushi"
+  ],
   "akeome-nya": [
     "akeome",
     "happy-new-year"
   ],
+  "akeome-nya2": [],
   "ame-nya": [
     "ame",
     "rain"
@@ -11,8 +15,17 @@
     "amefoot",
     "american-football"
   ],
+  "anahori-tate-nya": [
+    "anahori-tate"
+  ],
+  "anahori-yoko-nya": [
+    "anahori-yoko"
+  ],
   "angel-nya": [
     "angel"
+  ],
+  "arau-nya": [
+    "arau"
   ],
   "ari-nya": [
     "ari",
@@ -40,6 +53,9 @@
   "azarashi-nya": [
     "azarashi",
     "seal"
+  ],
+  "baa-nya": [
+    "baa"
   ],
   "badminton-nya": [
     "badminton"
@@ -93,11 +109,17 @@
     "book-mark",
     "bookmark"
   ],
+  "botan-nya": [
+    "botan"
+  ],
   "bow-nya": [
     "bow"
   ],
   "bow-nya2": [
     "bow2"
+  ],
+  "budou-nya": [
+    "budou"
   ],
   "buriburiburiburi-muchaburi-nya": [
     "buriburiburiburi-muchaburi"
@@ -129,6 +151,9 @@
   ],
   "choo-choo-train-nya": [
     "choo-choo-train"
+  ],
+  "christmas-tree-nya": [
+    "christmas-tree"
   ],
   "chudoon-nya": [
     "chudoon",
@@ -167,6 +192,9 @@
     "densha",
     "train"
   ],
+  "dj-nya": [
+    "dj"
+  ],
   "docchidemo-ii-nya": [
     "docchidemo-ii"
   ],
@@ -188,6 +216,9 @@
     "doya",
     "smug"
   ],
+  "dozo-nya": [
+    "dozo"
+  ],
   "drum-nya": [
     "drum"
   ],
@@ -196,6 +227,9 @@
   ],
   "fire-nya": [
     "fire"
+  ],
+  "first-penguin-nya": [
+    "first-penguin"
   ],
   "flute-nya": [
     "flute"
@@ -228,6 +262,9 @@
   ],
   "good-nya": [
     "good"
+  ],
+  "gooon-nya": [
+    "gooon"
   ],
   "goron-goron-nya": [
     "goron-goron",
@@ -271,6 +308,9 @@
     "hansei",
     "regret"
   ],
+  "happy-cat-nya": [
+    "happy-cat"
+  ],
   "hare-nya": [
     "hare",
     "sunny"
@@ -295,6 +335,9 @@
     "hige",
     "mustache"
   ],
+  "hikouki-nya": [
+    "hikouki"
+  ],
   "hirameita-nya": [
     "hirameita",
     "idea"
@@ -313,6 +356,9 @@
   "hokkori-nya": [
     "hokkori",
     "heartwarming"
+  ],
+  "holiday-nya": [
+    "holiday"
   ],
   "holiday-nya2": [
     "holiday2"
@@ -344,6 +390,9 @@
   "hyun-nya": [
     "hyun"
   ],
+  "ichigo-nya": [
+    "ichigo"
+  ],
   "ie-nya": [
     "ie",
     "house"
@@ -351,6 +400,9 @@
   "ika-nya": [
     "ika",
     "squid"
+  ],
+  "ikura-gunkan-osushi-nya": [
+    "ikura-gunkan-osushi"
   ],
   "inai-nya": [
     "inai",
@@ -455,6 +507,9 @@
     "kaze-tuyoi",
     "windy"
   ],
+  "kegen-nya": [
+    "kegen"
+  ],
   "kenkou-shindan-nya": [
     "kenkou-shindan"
   ],
@@ -469,6 +524,9 @@
   "kiku-nya": [
     "kiku",
     "listen"
+  ],
+  "kinoko-nya": [
+    "kinoko"
   ],
   "kiriri-nya": [
     "kiriri"
@@ -494,6 +552,9 @@
   "komata-nya": [
     "komata",
     "awkward"
+  ],
+  "koneru-nya": [
+    "koneru"
   ],
   "kosame-nya": [
     "kosame",
@@ -562,6 +623,9 @@
   "kyun-desu-nya": [
     "kyun-desu"
   ],
+  "lemon-nya": [
+    "lemon"
+  ],
   "lgtm-nya": [
     "lgtm"
   ],
@@ -624,12 +688,21 @@
     "medetai",
     "joyful"
   ],
+  "medetai-tai-nya": [
+    "medetai-tai"
+  ],
   "medetai-tai-tai-nya": [
     "medetai-tai-tai"
   ],
   "megane-nya": [
     "megane",
     "glasses"
+  ],
+  "mekara-uroko-nya": [
+    "mekara-uroko"
+  ],
+  "melon-nya": [
+    "melon"
   ],
   "melty-nya": [
     "melty"
@@ -639,7 +712,7 @@
   ],
   "merry-chri-nya2": [
     "merry-chri2",
-    "christmas-tree"
+    "merry-christmas2"
   ],
   "mesareta-nya": [
     "mesareta",
@@ -650,6 +723,9 @@
     "minai",
     "see-no-evil"
   ],
+  "mikan-nya": [
+    "mikan"
+  ],
   "miru-nya": [
     "miru",
     "watch"
@@ -657,6 +733,9 @@
   "mita-nya": [
     "mita",
     "watched"
+  ],
+  "miteru-nya": [
+    "miteru"
   ],
   "momo-nya": [
     "momo",
@@ -695,6 +774,9 @@
     "nageta",
     "throw"
   ],
+  "nageyari-nya": [
+    "nageyari"
+  ],
   "naisho-nya": [
     "naisho",
     "secret"
@@ -714,6 +796,9 @@
   "nanimo-sitenainoni-kowareta-nya": [
     "nanimo-sitenainoni-kowareta"
   ],
+  "nanimo-sitenainoni-naotta-nya": [
+    "nanimo-sitenainoni-naotta"
+  ],
   "naosu-nya": [
     "naosu",
     "repair"
@@ -732,6 +817,9 @@
     "eggplant",
     "aubergine"
   ],
+  "negitoro-gunkan-osushi-nya": [
+    "negitoro-gunkan-osushi"
+  ],
   "neko-nya": [
     "neko",
     "cat"
@@ -746,6 +834,9 @@
   "neru-nya": [
     "neru",
     "go-to-bed"
+  ],
+  "nerunerunerune-nya": [
+    "nerunerunerune"
   ],
   "nesshou-nya": [
     "nesshou"
@@ -827,11 +918,17 @@
     "odaijini",
     "take-care"
   ],
+  "oitoku-nya": [
+    "oitoku"
+  ],
   "ok-nya": [
     "ok"
   ],
   "ok-nya2": [
     "ok2"
+  ],
+  "okane-byebye-nya": [
+    "okane-byebye"
   ],
   "okita-nya": [
     "okita",
@@ -875,6 +972,9 @@
     "osirase",
     "notification"
   ],
+  "osora-kirei-nya": [
+    "osora-kirei"
+  ],
   "ota-gei-nya": [
     "ota-gei",
     "wotagei"
@@ -901,6 +1001,9 @@
   "patari-nya": [
     "patari"
   ],
+  "patch-nya": [
+    "patch"
+  ],
   "peace-nya": [
     "peace"
   ],
@@ -910,6 +1013,12 @@
   "pien-nya": [
     "pien",
     "pleading-face"
+  ],
+  "pii-nya": [
+    "pii"
+  ],
+  "pineapple-nya": [
+    "pineapple"
   ],
   "pizza-nya": [
     "pizza"
@@ -923,6 +1032,12 @@
   ],
   "pray-nya": [
     "pray"
+  ],
+  "presen-nya": [
+    "presen"
+  ],
+  "present-nya": [
+    "present"
   ],
   "puka-puka-nya": [
     "puka-puka",
@@ -961,6 +1076,12 @@
   "ryu-nya": [
     "ryu",
     "dragon"
+  ],
+  "saka-nya": [
+    "saka"
+  ],
+  "sakuranbo-nya": [
+    "sakuranbo"
   ],
   "salmon-no-osushi-nya": [
     "salmon-no-osushi",
@@ -1008,6 +1129,9 @@
     "shouka",
     "fire-fighting"
   ],
+  "shugou-nya": [
+    "shugou"
+  ],
   "simasima-nya": [
     "simasima",
     "stripe"
@@ -1015,6 +1139,9 @@
   "singi-chu-nya": [
     "singi-chu",
     "under-discussion"
+  ],
+  "sinkansen-nya": [
+    "sinkansen"
   ],
   "sirome-nya": [
     "sirome",
@@ -1058,11 +1185,20 @@
     "suki",
     "like"
   ],
+  "sumi-nya": [
+    "sumi"
+  ],
   "summer-nya": [
     "summer"
   ],
+  "sunobo-nya": [
+    "sunobo"
+  ],
   "suteru-nya": [
     "suteru"
+  ],
+  "suu-nya": [
+    "suu"
   ],
   "suzusi-nya": [
     "suzusi",
@@ -1189,6 +1325,9 @@
     "unun2",
     "nod2"
   ],
+  "uoooo-nya": [
+    "uoooo"
+  ],
   "uparupa-nya": [
     "uparupa",
     "axolotl"
@@ -1196,6 +1335,9 @@
   "usagi-nya": [
     "usagi",
     "rabbit"
+  ],
+  "ushi-nya": [
+    "ushi"
   ],
   "usi-nya": [
     "usi",
@@ -1219,6 +1361,9 @@
   "wairo-nya": [
     "wairo",
     "bribe"
+  ],
+  "wakame-nya": [
+    "wakame"
   ],
   "wani-nya": [
     "wani",
@@ -1316,6 +1461,9 @@
     "yutai-ridatsu",
     "astral-projection"
   ],
+  "zabuton-itimai-nya": [
+    "zabuton-itimai"
+  ],
   "zombie-nya": [
     "zombie"
   ],
@@ -1330,9 +1478,15 @@
     "zuko",
     "tumble"
   ],
+  "zusa-nya": [
+    "zusa"
+  ],
   "zutsu-nya": [
     "zutsu",
     "headache"
+  ],
+  "zuza-nya": [
+    "zuza"
   ],
   "ショパン-nya": [
     "ショパン",
