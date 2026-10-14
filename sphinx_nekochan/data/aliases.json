@@ -6,7 +6,10 @@
     "akeome",
     "happy-new-year"
   ],
-  "akeome-nya2": [],
+  "akeome-nya2": [
+    "akeome2",
+    "happy-new-year2"
+  ],
   "ame-nya": [
     "ame",
     "rain"
@@ -16,16 +19,19 @@
     "american-football"
   ],
   "anahori-tate-nya": [
-    "anahori-tate"
+    "anahori-tate",
+    "vertical-digging"
   ],
   "anahori-yoko-nya": [
-    "anahori-yoko"
+    "anahori-yoko",
+    "horizontal-digging"
   ],
   "angel-nya": [
     "angel"
   ],
   "arau-nya": [
-    "arau"
+    "arau",
+    "wash"
   ],
   "ari-nya": [
     "ari",
@@ -110,7 +116,8 @@
     "bookmark"
   ],
   "botan-nya": [
-    "botan"
+    "botan",
+    "button"
   ],
   "bow-nya": [
     "bow"
@@ -119,7 +126,8 @@
     "bow2"
   ],
   "budou-nya": [
-    "budou"
+    "budou",
+    "grape"
   ],
   "buriburiburiburi-muchaburi-nya": [
     "buriburiburiburi-muchaburi"
@@ -217,7 +225,8 @@
     "smug"
   ],
   "dozo-nya": [
-    "dozo"
+    "dozo",
+    "please"
   ],
   "drum-nya": [
     "drum"
@@ -264,7 +273,8 @@
     "good"
   ],
   "gooon-nya": [
-    "gooon"
+    "gooon",
+    "temple-bell"
   ],
   "goron-goron-nya": [
     "goron-goron",
@@ -298,12 +308,24 @@
   "haniwa-nya": [
     "haniwa"
   ],
-  "haniwa-nya-noroi": [],
-  "haniwa-nya-purupuru": [],
-  "haniwa-nya-shousei": [],
-  "haniwa-nya-shutudo": [],
-  "haniwa-nya-spin": [],
-  "haniwa-nya-yatta": [],
+  "haniwa-nya-noroi": [
+    "haniwa-noroi"
+  ],
+  "haniwa-nya-purupuru": [
+    "haniwa-purupuru"
+  ],
+  "haniwa-nya-shousei": [
+    "haniwa-shousei"
+  ],
+  "haniwa-nya-shutudo": [
+    "haniwa-shutudo"
+  ],
+  "haniwa-nya-spin": [
+    "haniwa-spin"
+  ],
+  "haniwa-nya-yatta": [
+    "haniwa-yatta"
+  ],
   "hansei-nya": [
     "hansei",
     "regret"
@@ -336,7 +358,8 @@
     "mustache"
   ],
   "hikouki-nya": [
-    "hikouki"
+    "hikouki",
+    "airplane"
   ],
   "hirameita-nya": [
     "hirameita",
@@ -391,7 +414,8 @@
     "hyun"
   ],
   "ichigo-nya": [
-    "ichigo"
+    "ichigo",
+    "strawberry"
   ],
   "ie-nya": [
     "ie",
@@ -508,7 +532,8 @@
     "windy"
   ],
   "kegen-nya": [
-    "kegen"
+    "kegen",
+    "dubious"
   ],
   "kenkou-shindan-nya": [
     "kenkou-shindan"
@@ -526,7 +551,8 @@
     "listen"
   ],
   "kinoko-nya": [
-    "kinoko"
+    "kinoko",
+    "mushroom"
   ],
   "kiriri-nya": [
     "kiriri"
@@ -554,7 +580,8 @@
     "awkward"
   ],
   "koneru-nya": [
-    "koneru"
+    "koneru",
+    "knead"
   ],
   "kosame-nya": [
     "kosame",
@@ -699,7 +726,8 @@
     "glasses"
   ],
   "mekara-uroko-nya": [
-    "mekara-uroko"
+    "mekara-uroko",
+    "eye-opener"
   ],
   "melon-nya": [
     "melon"
@@ -724,7 +752,9 @@
     "see-no-evil"
   ],
   "mikan-nya": [
-    "mikan"
+    "mikan",
+    "tangerine",
+    "orange"
   ],
   "miru-nya": [
     "miru",
@@ -735,7 +765,8 @@
     "watched"
   ],
   "miteru-nya": [
-    "miteru"
+    "miteru",
+    "watching"
   ],
   "momo-nya": [
     "momo",
@@ -775,7 +806,8 @@
     "throw"
   ],
   "nageyari-nya": [
-    "nageyari"
+    "nageyari",
+    "javelin-throw"
   ],
   "naisho-nya": [
     "naisho",
@@ -928,7 +960,8 @@
     "ok2"
   ],
   "okane-byebye-nya": [
-    "okane-byebye"
+    "okane-byebye",
+    "byebye-money"
   ],
   "okita-nya": [
     "okita",
@@ -1034,7 +1067,8 @@
     "pray"
   ],
   "presen-nya": [
-    "presen"
+    "presen",
+    "presentation"
   ],
   "present-nya": [
     "present"
@@ -1078,10 +1112,12 @@
     "dragon"
   ],
   "saka-nya": [
-    "saka"
+    "sakana",
+    "fish"
   ],
   "sakuranbo-nya": [
-    "sakuranbo"
+    "sakuranbo",
+    "cherry"
   ],
   "salmon-no-osushi-nya": [
     "salmon-no-osushi",
@@ -1130,7 +1166,8 @@
     "fire-fighting"
   ],
   "shugou-nya": [
-    "shugou"
+    "shugou",
+    "gathering"
   ],
   "simasima-nya": [
     "simasima",
@@ -1141,10 +1178,13 @@
     "under-discussion"
   ],
   "sinkansen-nya": [
-    "sinkansen"
+    "sinkansen",
+    "shinkansen",
+    "bullet-train"
   ],
   "sirome-nya": [
     "sirome",
+    "shirome",
     "white-eyes"
   ],
   "skip-nya": [
@@ -1337,9 +1377,7 @@
     "rabbit"
   ],
   "ushi-nya": [
-    "ushi"
-  ],
-  "usi-nya": [
+    "ushi",
     "usi",
     "cow"
   ],
@@ -1363,7 +1401,8 @@
     "bribe"
   ],
   "wakame-nya": [
-    "wakame"
+    "wakame",
+    "seaweed"
   ],
   "wani-nya": [
     "wani",
